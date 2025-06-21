@@ -1,94 +1,87 @@
 import SwiftUI
 
 struct StationListView: View {
-    let lineName: String
-    let stations: [String]
-    @State private var visitedStationNames: Set<String> = []
-    private let userDefaultsKey = "visitedStations"
+    let line: TrainLine
+    @ObservedObject var store: EkichoDataStore
     
-    var visitedCount: Int {
-        visitedStationNames.intersection(stations).count
+    private var visitedCount: Int {
+        store.visitedStationCount(for: line)
     }
     
-    var progress: Double {
-        guard !stations.isEmpty else { return 0 }
-        return Double(visitedCount) / Double(stations.count)
+    private var progress: Double {
+        guard !line.stationIDs.isEmpty else { return 0 }
+        return Double(visitedCount) / Double(line.stationIDs.count)
     }
     
     var body: some View {
-        VStack(alignment: .leading, spacing: 16) {
+        VStack(spacing: 0) {
             // Header
             VStack(alignment: .leading, spacing: 8) {
-                Text(lineName)
+                Text(line.name)
                     .font(.title2)
                     .bold()
-                Text("\(visitedCount) of \(stations.count) visited")
+                Text("\(visitedCount) of \(line.stationIDs.count) visited")
                     .font(.subheadline)
                     .foregroundColor(.secondary)
                 ProgressView(value: progress)
+                    .accentColor(line.color)
             }
             .padding(.horizontal)
+            .padding(.vertical, 16)
+            .background(Color(.systemBackground))
             
             // Station List
-            List {
-                ForEach(Array(stations.enumerated()), id: \.offset) { index, name in
-                    Button(action: {
-                        toggleVisited(stationName: name)
-                    }) {
-                        HStack {
-                            Text("\(index + 1). ")
-                                .foregroundColor(.secondary)
-                            if visitedStationNames.contains(name) {
-                                Image(systemName: "checkmark.circle.fill")
-                                    .foregroundColor(.green)
-                                Text(name)
-                                    .strikethrough()
-                                    .foregroundColor(.secondary)
-                            } else {
-                                Image(systemName: "circle")
-                                    .foregroundColor(.gray)
-                                Text(name)
-                                    .foregroundColor(.primary)
+            ScrollView(.vertical, showsIndicators: true) {
+                LazyVStack(spacing: 0) {
+                    ForEach(line.stationIDs, id: \.self) { stationID in
+                        if let station = store.stations[stationID] {
+                            Button(action: {
+                                store.toggleVisited(station: station)
+                            }) {
+                                HStack {
+                                    if store.visitedStationIDs.contains(station.id) {
+                                        Text(station.name)
+                                            .strikethrough()
+                                            .foregroundColor(.secondary)
+                                    } else {
+                                        Text(station.name)
+                                            .foregroundColor(.primary)
+                                    }
+                                    Spacer()
+                                    if store.visitedStationIDs.contains(station.id) {
+                                        Image(systemName: "checkmark.circle.fill")
+                                            .foregroundColor(.green)
+                                    } else {
+                                        Image(systemName: "circle")
+                                            .foregroundColor(.gray)
+                                    }
+                                }
+                                .padding(.horizontal, 20)
+                                .padding(.vertical, 12)
+                                .background(Color(.systemBackground))
                             }
+                            .buttonStyle(PlainButtonStyle())
+                            Divider()
+                                .padding(.leading, 56)
                         }
                     }
                 }
             }
-            .listStyle(.plain)
-            .animation(.default, value: visitedStationNames)
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
         }
-        .onAppear(perform: loadVisitedStations)
-        .navigationTitle(lineName)
+        .navigationTitle(line.name)
         .navigationBarTitleDisplayMode(.inline)
-    }
-    
-    private func loadVisitedStations() {
-        if let saved = UserDefaults.standard.array(forKey: userDefaultsKey) as? [String] {
-            visitedStationNames = Set(saved)
-        }
-    }
-    
-    private func saveVisitedStations() {
-        UserDefaults.standard.set(Array(visitedStationNames), forKey: userDefaultsKey)
-    }
-    
-    private func toggleVisited(stationName: String) {
-        if visitedStationNames.contains(stationName) {
-            visitedStationNames.remove(stationName)
-        } else {
-            visitedStationNames.insert(stationName)
-        }
-        saveVisitedStations()
     }
 }
 
 #if DEBUG
 struct StationListView_Previews: PreviewProvider {
     static var previews: some View {
-        StationListView(
-            lineName: "JR Yamanote Line",
-            stations: ["Shibuya", "Ebisu", "Meguro", "Shinagawa"]
-        )
+        let store = EkichoDataStore()
+        let sampleLine = store.lines.first!
+        return NavigationView {
+            StationListView(line: sampleLine, store: store)
+        }
     }
 }
 #endif 
