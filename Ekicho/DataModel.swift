@@ -73,7 +73,7 @@ class EkichoDataStore: ObservableObject {
             print("Failed to load lines.json, using fallback data")
             return Self.getFallbackLinesAndStations()
         }
-        let stationDict = Dictionary(uniqueKeysWithValues: decoded.stations.map { ($0.id, $0) })
+        let stationDict = Dictionary(decoded.stations.map { ($0.id, $0) }, uniquingKeysWith: { _, last in last })
         let lines = decoded.lines.map { lineData in
             TrainLine(
                 id: UUID(),
