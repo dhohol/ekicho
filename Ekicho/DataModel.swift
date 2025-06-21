@@ -14,6 +14,7 @@ struct TrainLine: Identifiable, Codable {
     let colorName: String
     let symbol: String?
     let iconAssetName: String?
+    let shape: String?
     let stationIDs: [String] // references to global stations
     
     var color: Color {
@@ -43,6 +44,7 @@ struct LineData: Codable {
     let lineName: String
     let colorName: String
     let symbol: String?
+    let shape: String?
     let iconAssetName: String?
     let stationIDs: [String]
 }
@@ -79,6 +81,7 @@ class EkichoDataStore: ObservableObject {
                 colorName: lineData.colorName,
                 symbol: lineData.symbol,
                 iconAssetName: lineData.iconAssetName,
+                shape: lineData.shape,
                 stationIDs: lineData.stationIDs
             )
         }
@@ -92,8 +95,8 @@ class EkichoDataStore: ObservableObject {
             Station(id: "ebisu", name: "Ebisu")
         ]
         let lines = [
-            TrainLine(id: UUID(), name: "JR Yamanote Line", colorName: "green", symbol: "JY", iconAssetName: nil, stationIDs: ["shinjuku", "shibuya", "ebisu"]),
-            TrainLine(id: UUID(), name: "JR Chuo Line", colorName: "red", symbol: "JC", iconAssetName: nil, stationIDs: ["shinjuku", "ebisu"])
+            TrainLine(id: UUID(), name: "JR Yamanote Line", colorName: "green", symbol: "JY", iconAssetName: nil, shape: nil, stationIDs: ["shinjuku", "shibuya", "ebisu"]),
+            TrainLine(id: UUID(), name: "JR Chuo Line", colorName: "red", symbol: "JC", iconAssetName: nil, shape: nil, stationIDs: ["shinjuku", "ebisu"])
         ]
         let stationDict = Dictionary(uniqueKeysWithValues: stations.map { ($0.id, $0) })
         return (lines, stationDict)

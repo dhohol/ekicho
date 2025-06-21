@@ -39,24 +39,48 @@ struct LineCardView: View {
     var body: some View {
         HStack(spacing: 20) {
             if let iconName = line.iconAssetName {
-                Image(iconName)
-                    .resizable()
-                    .scaledToFit()
-                    .padding(4) // Add spacing inside the 36x36 frame
-                    .frame(width: 36, height: 36)
-                    .background(Circle().fill(Color.white)) // optional
-                    .clipShape(Circle())
-                    .shadow(radius: 2)
-            } else {
-                ZStack {
-                    Circle()
-                        .fill(line.color)
+                if line.shape == "square" {
+                    Image(iconName)
+                        .resizable()
+                        .scaledToFit()
+                        .padding(4)
                         .frame(width: 36, height: 36)
+                        .background(RoundedRectangle(cornerRadius: 4).fill(Color.white))
+                        .clipShape(RoundedRectangle(cornerRadius: 4))
                         .shadow(radius: 2)
-                    Text(line.symbol ?? "")
-                        .font(.caption2)
-                        .bold()
-                        .foregroundColor(.white)
+                } else {
+                    Image(iconName)
+                        .resizable()
+                        .scaledToFit()
+                        .padding(4) // Add spacing inside the 36x36 frame
+                        .frame(width: 36, height: 36)
+                        .background(Circle().fill(Color.white)) // optional
+                        .clipShape(Circle())
+                        .shadow(radius: 2)
+                }
+            } else {
+                if line.shape == "square" {
+                    ZStack {
+                        RoundedRectangle(cornerRadius: 4)
+                            .fill(line.color)
+                            .frame(width: 36, height: 36)
+                            .shadow(radius: 2)
+                        Text(line.symbol ?? "")
+                            .font(.caption2)
+                            .bold()
+                            .foregroundColor(.white)
+                    }
+                } else {
+                    ZStack {
+                        Circle()
+                            .fill(line.color)
+                            .frame(width: 36, height: 36)
+                            .shadow(radius: 2)
+                        Text(line.symbol ?? "")
+                            .font(.caption2)
+                            .bold()
+                            .foregroundColor(.white)
+                    }
                 }
             }
             VStack(alignment: .leading, spacing: 8) {

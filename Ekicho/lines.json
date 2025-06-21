@@ -945,6 +945,7 @@
       "lineName": "JR Yamanote Line",
       "colorName": "green",
       "lineSymbol": "JY",
+      "shape": "square",
       "iconAssetName": "yamanote",
       "stations": [
         "Osaki",
