@@ -16,6 +16,7 @@ struct TrainLine: Identifiable, Codable {
     let iconAssetName: String?
     let shape: String?
     let stationIDs: [String] // references to global stations
+    let company: String? // optional company property
     
     var color: Color {
         switch colorName.lowercased() {
@@ -28,8 +29,15 @@ struct TrainLine: Identifiable, Codable {
         case "pink": return .pink
         case "brown": return .brown
         case "lightblue": return Color("LightBlue")
+        case "emerald": return .mint
+        case "rose": return .pink
+        case "gold": return .yellow
         default: return .gray
         }
+    }
+    
+    var companyName: String {
+        return company ?? "Other"
     }
 }
 
@@ -47,22 +55,37 @@ struct LineData: Codable {
     let shape: String?
     let iconAssetName: String?
     let stationIDs: [String]
+    let company: String? // optional company property
 }
 
 // MARK: - Data Store (Single Source of Truth)
 
 class EkichoDataStore: ObservableObject {
     @Published var visitedStationIDs: Set<String> = [] // global station IDs
+    @Published var selectedCompanies: Set<String> = []
     let lines: [TrainLine]
     let stations: [String: Station] // global station dictionary
+    let allCompanies: [String]
     
     private let userDefaultsKey = "visitedStationIDs"
+    private let selectedCompaniesKey = "selectedCompanies"
     
     init() {
         let (lines, stations) = Self.loadLinesAndStationsFromJSON()
         self.lines = lines
         self.stations = stations
+        
+        let uniqueCompanies = Set(lines.map { $0.companyName })
+        self.allCompanies = Array(uniqueCompanies).sorted()
+
         loadVisitedStations()
+        loadSelectedCompanies()
+
+        if let savedCompanies = UserDefaults.standard.array(forKey: selectedCompaniesKey) as? [String] {
+            self.selectedCompanies = Set(savedCompanies)
+        } else {
+            self.selectedCompanies = Set(allCompanies)
+        }
     }
     
     // MARK: - JSON Loading
@@ -82,7 +105,8 @@ class EkichoDataStore: ObservableObject {
                 symbol: lineData.symbol,
                 iconAssetName: lineData.iconAssetName,
                 shape: lineData.shape,
-                stationIDs: lineData.stationIDs
+                stationIDs: lineData.stationIDs,
+                company: lineData.company
             )
         }
         return (lines, stationDict)
@@ -95,8 +119,8 @@ class EkichoDataStore: ObservableObject {
             Station(id: "ebisu", name: "Ebisu")
         ]
         let lines = [
-            TrainLine(id: UUID(), name: "JR Yamanote Line", colorName: "green", symbol: "JY", iconAssetName: nil, shape: nil, stationIDs: ["shinjuku", "shibuya", "ebisu"]),
-            TrainLine(id: UUID(), name: "JR Chuo Line", colorName: "red", symbol: "JC", iconAssetName: nil, shape: nil, stationIDs: ["shinjuku", "ebisu"])
+            TrainLine(id: UUID(), name: "JR Yamanote Line", colorName: "green", symbol: "JY", iconAssetName: nil, shape: nil, stationIDs: ["shinjuku", "shibuya", "ebisu"], company: "JR"),
+            TrainLine(id: UUID(), name: "JR Chuo Line", colorName: "red", symbol: "JC", iconAssetName: nil, shape: nil, stationIDs: ["shinjuku", "ebisu"], company: "JR")
         ]
         let stationDict = Dictionary(uniqueKeysWithValues: stations.map { ($0.id, $0) })
         return (lines, stationDict)
@@ -108,9 +132,25 @@ class EkichoDataStore: ObservableObject {
             self.visitedStationIDs = Set(savedIDs)
         }
     }
+    
     func saveVisitedStations() {
         UserDefaults.standard.set(Array(visitedStationIDs), forKey: userDefaultsKey)
     }
+    
+    func loadSelectedCompanies() {
+        if let savedCompanies = UserDefaults.standard.array(forKey: selectedCompaniesKey) as? [String] {
+            // Ensure saved companies are still valid
+            let validCompanies = Set(savedCompanies).intersection(allCompanies)
+            self.selectedCompanies = validCompanies.isEmpty ? Set(allCompanies) : validCompanies
+        } else {
+            self.selectedCompanies = Set(allCompanies)
+        }
+    }
+    
+    func saveSelectedCompanies() {
+        UserDefaults.standard.set(Array(selectedCompanies), forKey: selectedCompaniesKey)
+    }
+    
     // MARK: - User Actions
     func toggleVisited(station: Station) {
         if visitedStationIDs.contains(station.id) {
@@ -120,9 +160,54 @@ class EkichoDataStore: ObservableObject {
         }
         saveVisitedStations()
     }
+    
+    func toggleCompany(_ company: String) {
+        if selectedCompanies.contains(company) {
+            selectedCompanies.remove(company)
+        } else {
+            selectedCompanies.insert(company)
+        }
+        saveSelectedCompanies()
+    }
+    
+    func toggleAllCompanies() {
+        if selectedCompanies.count == allCompanies.count {
+            selectedCompanies.removeAll()
+        } else {
+            selectedCompanies = Set(allCompanies)
+        }
+        saveSelectedCompanies()
+    }
+    
     // MARK: - View-facing Logic
     func visitedStationCount(for line: TrainLine) -> Int {
         let lineStationIDs = Set(line.stationIDs)
         return visitedStationIDs.intersection(lineStationIDs).count
     }
+    
+    // MARK: - Progress Calculation
+    var totalProgress: ProgressInfo {
+        let allStationIDs = Set(lines.flatMap { $0.stationIDs })
+        let visitedCount = visitedStationIDs.intersection(allStationIDs).count
+        let totalCount = allStationIDs.count
+        let percentage = totalCount > 0 ? Double(visitedCount) / Double(totalCount) : 0
+        
+        return ProgressInfo(
+            visitedCount: visitedCount,
+            totalCount: totalCount,
+            percentage: percentage
+        )
+    }
+    
+    var filteredLines: [TrainLine] {
+        lines.filter { selectedCompanies.contains($0.companyName) }
+    }
+}
+
+// MARK: - Supporting Types
+
+struct ProgressInfo {
+    let visitedCount: Int
+    let totalCount: Int
+    let percentage: Double
 }

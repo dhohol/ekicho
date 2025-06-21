@@ -545,11 +545,13 @@
       "colorName": "orange",
       "lineSymbol": "G",
       "iconAssetName": "ginza",
+      "company": "Tokyo Metro",
       "stations": ["Asakusa","Tawaramachi","Inaricho","Ueno","Ueno-hirokoji","Suehirocho","Kanda","Mitsukoshimae","Nihombashi","Kyobashi","Ginza","Shimbashi","Toranomon","Akasaka-mitsuke","Aoyama-itchome","Gaiemmae","Omotesando","Shibuya"],
       "stationIDs": ["asakusa","tawaramachi","inaricho","ueno","ueno-hirokoji","suehirocho","kanda","mitsukoshimae","nihombashi","kyobashi","ginza","shimbashi","toranomon","akasaka-mitsuke","aoyama-itchome","gaiemmae","omotesando","shibuya"]
     },
     {
-      "lineName": "Tokyo Metro Marunouchi Line",
+      "lineName": "Marunouchi Line",
+      "company": "Tokyo Metro",
       "colorName": "red",
       "lineSymbol": "M",
       "iconAssetName": "marunouchi",
@@ -557,7 +559,8 @@
       "stationIDs": ["ogikubo","minami-asagaya","higashi-koenji","shin-koenji","nakano-sakaue","shinjuku","shinjuku-sanchome","shimbashi","ikebukuro","korakuen"]
     },
     {
-      "lineName": "Tokyo Metro Hibiya Line",
+      "lineName": "Hibiya Line",
+      "company": "Tokyo Metro",
       "colorName": "gray",
       "lineSymbol": "H",
       "iconAssetName": "hibiya",
@@ -565,7 +568,8 @@
       "stationIDs": ["naka-meguro","ebisu","hiroo","roppongi","kamiyacho","toranomon-hills","kasumigaseki","hibiya","ginza","higashi-ginza","tsukiji","hatchobori","kayabacho","ningyocho","kodemmacho","akihabara","naka-okachimachi","ueno","iriya","minowa","minami-senju","kita-senju"]
     },
     {
-      "lineName": "Tokyo Metro Tozai Line",
+      "lineName": "Tozai Line",
+      "company": "Tokyo Metro",
       "colorName": "blue",
       "lineSymbol": "T",
       "iconAssetName": "tozai",
@@ -623,7 +627,8 @@
       ]
     },
     {
-      "lineName": "Tokyo Metro Chiyoda Line",
+      "lineName": "Chiyoda Line",
+      "company": "Tokyo Metro",
       "colorName": "green",
       "lineSymbol": "C",
       "iconAssetName": "chiyoda",
@@ -631,7 +636,8 @@
       "stationIDs": ["yoyogi-uehara","meiji-jingumae","nogizaka","akasaka","kokkai-gijidomae","kasumigaseki","hibiya","nijubashimae","otemachi","kudanshita","takebashi","suidobashi","nezu","sendagi","nishi-nippori","machiya","kita-senju","ayase","kita-ayase"]
     },
     {
-      "lineName": "Tokyo Metro Yurakucho Line",
+      "lineName": "Yurakucho Line",
+      "company": "Tokyo Metro",
       "colorName": "gold",
       "lineSymbol": "Y",
       "iconAssetName": "yurakucho",
@@ -691,7 +697,8 @@
       ]
     },
     {
-      "lineName": "Tokyo Metro Hanzomon Line",
+      "lineName": "Hanzomon Line",
+      "company": "Tokyo Metro",
       "colorName": "purple",
       "lineSymbol": "Z",
       "iconAssetName": "hanzomon",
@@ -733,7 +740,8 @@
       ]
     },
     {
-      "lineName": "Tokyo Metro Namboku Line",
+      "lineName": "Namboku Line",
+      "company": "Tokyo Metro",
       "colorName": "emerald",
       "lineSymbol": "N",
       "iconAssetName": "namboku",
@@ -786,7 +794,8 @@
       ]
     },
     {
-      "lineName": "Tokyo Metro Fukutoshin Line",
+      "lineName": "Fukutoshin Line",
+      "company": "Tokyo Metro",
       "colorName": "brown",
       "lineSymbol": "F",
       "iconAssetName": "fukutoshin",
@@ -828,7 +837,8 @@
       ]
     },
     {
-      "lineName": "Toei Asakusa Line",
+      "lineName": "Asakusa Line",
+      "company": "Toei",
       "colorName": "rose",
       "lineSymbol": "A",
       "iconAssetName": "asakusa",
@@ -878,7 +888,8 @@
       ]
     },
     {
-      "lineName": "Toei Mita Line",
+      "lineName": "Mita Line",
+      "company": "Toei",
       "colorName": "blue",
       "lineSymbol": "I",
       "iconAssetName": "mita",
@@ -942,7 +953,8 @@
       ]
     },
     {
-      "lineName": "Toei Shinjuku Line",
+      "lineName": "Shinjuku Line",
+      "company": "Toei",
       "colorName": "lime",
       "lineSymbol": "S",
       "iconAssetName": "shinjuku",
@@ -996,7 +1008,8 @@
       ]
     },
     {
-      "lineName": "Toei Oedo Line",
+      "lineName": "Oedo Line",
+      "company": "Toei",
       "colorName": "magenta",
       "lineSymbol": "E",
       "iconAssetName": "oedo",
@@ -1080,7 +1093,8 @@
       ]
     },
     {
-      "lineName": "JR Yamanote Line",
+      "lineName": "Yamanote Line",
+      "company": "JR",
       "colorName": "green",
       "lineSymbol": "JY",
       "shape": "square",
@@ -1151,7 +1165,8 @@
       ]
     },
     {
-      "lineName": "JR Keihin‑Tōhoku Line",
+      "lineName": "Keihin‑Tōhoku Line",
+      "company": "JR",
       "colorName": "blue",
       "lineSymbol": "JK",
       "iconAssetName": "JK",
@@ -1159,7 +1174,8 @@
       "stationIDs": ["omiya","kita-urawa","urawa","minami-urawa","warabi","nishi-kawaguchi","kawaguchi","akabane","higashi-jujo","jujo","oji","kami-nakazato","tabata","nishi-nippori","nippori","uguisudani","ueno","okachimachi","akihabara","kanda","tokyo","yurakucho","shimbashi","hamamatsucho","tamachi","shinagawa","oimachi","omori","kamata","kawasaki","tsurumi","shin-koyasu","higashi-kanagawa","yokohama","sakuragicho","kannai","ishikawacho","yamate","negishi","isogo","shinsugita","sugita","yokodai","hongodai","port-minami","ofuna"]
     },
     {
-      "lineName": "JR Chūō Line (Rapid)",
+      "lineName": "Chūō Line (Rapid)",
+      "company": "JR",
       "colorName": "cyan",
       "lineSymbol": "JC",
       "iconAssetName": "JC",
@@ -1167,7 +1183,8 @@
       "stationIDs": ["tokyo","kanda","ochanomizu","yotsuya","shinjuku","nakano","koenji","asagaya","ogikubo","nishi-ogikubo","kichijoji","mitaka","musashi-sakai","higashi-koganei","kokubunji","nishi-kokubunji","kunitachi","tachikawa","nishi-tachikawa","higashi-nakagami","koganei","musashi-koganei","hachioji"]
     },
     {
-      "lineName": "JR Sōbu Line",
+      "lineName": "Sōbu Line",
+      "company": "JR",
       "colorName": "yellow",
       "lineSymbol": "JB",
       "iconAssetName": "JB",
@@ -1253,7 +1270,8 @@
       ]
     },
     {
-      "lineName": "JR Yōkosuka Line",
+      "lineName": "Yōkosuka Line",
+      "company": "JR",
       "colorName": "navy",
       "lineSymbol": "JO",
       "iconAssetName": "JO",
@@ -1261,7 +1279,8 @@
       "stationIDs": ["tokyo","shimbashi","shinagawa","nishi-oi","musashi-kosugi","shin-kawasaki","kawasaki","tsurumi","hodogaya","higashi-totsuka","totsuka","ofuna","kamakura","zushi","yokosuka","kurihama"]
     },
     {
-      "lineName": "JR Tōkaidō Line",
+      "lineName": "Tōkaidō Line",
+      "company": "JR",
       "colorName": "orange",
       "lineSymbol": "JT",
       "iconAssetName": "JT",
@@ -1270,6 +1289,7 @@
     },
     {
       "lineName": "Keio Line",
+      "company": "Keio",
       "colorName": "navy",
       "lineSymbol": "KO",
       "iconAssetName": "KO",
@@ -1328,6 +1348,7 @@
     },
     {
       "lineName": "Keio Inokashira Line",
+      "company": "Keio",
       "colorName": "turquoise",
       "lineSymbol": "IN",
       "iconAssetName": "IN",
@@ -1366,6 +1387,7 @@
     },
     {
       "lineName": "Odakyu Odawara Line",
+      "company": "Odakyu",
       "colorName": "blue",
       "lineSymbol": "OH",
       "iconAssetName": "OH",
@@ -1473,7 +1495,8 @@
       ]
     },
     {
-      "lineName": "Tokyu Den-en-toshi Line",
+      "lineName": "Den-en-toshi Line",
+      "company": "Tokyu",
       "colorName": "green",
       "lineSymbol": "DT",
       "iconAssetName": "DT",
@@ -1535,7 +1558,8 @@
       ]
     },
     {
-      "lineName": "Tokyu Ikegami Line",
+      "lineName": "Ikegami Line",
+      "company": "Tokyu",
       "colorName": "pink",
       "lineSymbol": "IK",
       "iconAssetName": "IK",
@@ -1573,7 +1597,8 @@
       ]
     },
     {
-      "lineName": "Seibu Ikebukuro Line",
+      "lineName": "Ikebukuro Line",
+      "company": "Seibu",
       "colorName": "orange",
       "lineSymbol": "SI",
       "iconAssetName": "SeibuIkebukuro",
@@ -1597,7 +1622,8 @@
       ]
     },
     {
-      "lineName": "Seibu Tamako Line",
+      "lineName": "Tamako Line",
+      "company": "Seibu",
       "colorName": "brown",
       "lineSymbol": "ST",
       "iconAssetName": "ST",
@@ -1617,7 +1643,8 @@
       ]
     },
     {
-      "lineName": "Tobu Tojo Line",
+      "lineName": "Tojo Line",
+      "company": "Tobu",
       "colorName": "purple",
       "lineSymbol": "TJ",
       "iconAssetName": "TJ",
@@ -1641,7 +1668,8 @@
       ]
     },
     {
-      "lineName": "Keisei Oshiage Line",
+      "lineName": "Oshiage Line",
+      "company": "Keisei",
       "colorName": "blue",
       "lineSymbol": "KS",
       "iconAssetName": "KS",
@@ -1659,7 +1687,8 @@
       ]
     },
     {
-      "lineName": "Keikyū Main Line",
+      "lineName": "Keikyū",
+      "company": "Keikyū",
       "colorName": "red",
       "lineSymbol": "KK",
       "iconAssetName": "keikyu",
@@ -1690,6 +1719,7 @@
     },
     {
       "lineName": "Keikyū Airport Line",
+      "company": "Keikyū",
       "colorName": "red",
       "lineSymbol": "KK",
       "iconAssetName": "keikyu",
@@ -1714,6 +1744,7 @@
     },
     {
       "lineName": "Rinkai Line",
+      "company": "Tokyo Waterfront",
       "colorName": "navy",
       "lineSymbol": "R",
       "iconAssetName": "rinkai",
@@ -1739,7 +1770,8 @@
       ]
     },
     {
-      "lineName": "Tokyo Monorail",
+      "lineName": "Tokyo Monorail", 
+      "company": "JR",
       "colorName": "blue",
       "lineSymbol": "MO",
       "shape": "square",
@@ -1773,6 +1805,7 @@
     },
     {
       "lineName": "Yurikamome Line",
+      "company": "Yurikamome",
       "colorName": "cyan",
       "lineSymbol": "U",
       "iconAssetName": "U",
@@ -1815,6 +1848,7 @@
     },
     {
       "lineName": "Nippori–Toneri Liner",
+      "company": "Toei",
       "colorName": "teal",
       "lineSymbol": "NT",
       "shape": "square",
@@ -1841,7 +1875,8 @@
       ]
     },
     {
-      "lineName": "Tobu Skytree Line",
+      "lineName": "Skytree Line",
+      "company": "Tobu",
       "colorName": "light blue",
       "lineSymbol": "TS",
       "shape": "square",
@@ -1871,6 +1906,7 @@
     },
     {
       "lineName": "Musashino Line",
+      "company": "JR",
       "colorName": "green",
       "lineSymbol": "JM",
       "shape": "square",
@@ -1902,6 +1938,7 @@
     },
     {
       "lineName": "Keiyō Line",
+      "company": "JR",
       "colorName": "blue",
       "lineSymbol": "JE",
       "shape": "square",
@@ -1937,6 +1974,7 @@
     },
     {
       "lineName": "Tsukuba Express",
+      "company": "Tsukuba",
       "colorName": "purple",
       "lineSymbol": "TX",
       "shape": "square",
@@ -1983,7 +2021,8 @@
       ]
     },
     {
-      "lineName": "Toden Arakawa Line",
+      "lineName": "Arakawa Line",
+      "company": "Toei",
       "colorName": "pink",
       "lineSymbol": "SA",
       "iconAssetName": "SA",
@@ -2034,6 +2073,7 @@
     },
     {
       "lineName": "Setagaya Line",
+      "company": "Toei",
       "colorName": "yellow",
       "lineSymbol": "SG",
       "iconAssetName": "SG",
@@ -2063,7 +2103,8 @@
       ]
     },
     {
-      "lineName": "JR Nambu Line",
+      "lineName": "Nambu Line",
+      "company": "JR",
       "colorName": "orange",
       "lineSymbol": "JN",
       "shape": "square",
@@ -2102,7 +2143,8 @@
       ]
     },
     {
-      "lineName": "JR Hachiko Line",
+      "lineName": "Hachiko Line",
+      "company": "JR",
       "colorName": "brown",
       "lineSymbol": "JH",
       "shape": "square",
@@ -2137,7 +2179,8 @@
       ]
     },
     {
-      "lineName": "JR Saikyō Line",
+      "lineName": "Saikyō Line",
+      "company": "JR",
       "colorName": "blue",
       "lineSymbol": "JA",
       "shape": "square",
@@ -2167,6 +2210,7 @@
     },
     {
       "lineName": "Tama Monorail",
+      "company": "JR",
       "colorName": "green",
       "lineSymbol": "TT",
       "shape": "square",
@@ -2213,7 +2257,8 @@
       ]
     },
     {
-      "lineName": "Seibu Tamagawa Line",
+      "lineName": "Tamagawa Line",
+      "company": "Seibu",
       "colorName": "orange",
       "lineSymbol": "SW",
       "iconAssetName": "SW",
@@ -2245,7 +2290,8 @@
       ]
     },
     {
-      "lineName": "JR Itsukaichi Line",
+      "lineName": "Itsukaichi Line",
+      "company": "JR",
       "colorName": "purple",
       "lineSymbol": "JI",
       "shape": "square",
@@ -2276,7 +2322,8 @@
       ]
     },
     {
-      "lineName": "JR Ome Line",
+      "lineName": "Ome Line",
+      "company": "JR",
       "colorName": "green",
       "lineSymbol": "JC",
       "shape": "square",
