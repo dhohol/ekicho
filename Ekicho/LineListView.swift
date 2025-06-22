@@ -6,19 +6,16 @@ struct LineListView: View {
     
     var body: some View {
         NavigationView {
-            VStack(spacing: 0) {
-                // Progress Component
-                ProgressComponent(progress: store.totalProgress)
-                    .padding(.horizontal, 20)
-                    .padding(.top, 16)
-                
-                // Filter Component
-                CompanyFilterView(store: store)
-                    .padding(.horizontal, 20)
-                    .padding(.top, 16)
-                
-                // Lines List
-                ScrollView(.vertical, showsIndicators: true) {
+            ScrollView {
+                VStack(spacing: 20) {
+                    LogoView()
+                        .padding(.top, 8)
+                        .padding(.bottom, 12)
+
+                    ProgressComponent(progress: store.totalProgress)
+                    
+                    CompanyFilterView(store: store)
+                    
                     LazyVStack(spacing: 20) {
                         ForEach(store.filteredLines) { line in
                             NavigationLink(destination: StationListView(line: line, store: store)) {
@@ -30,11 +27,66 @@ struct LineListView: View {
                             .buttonStyle(PlainButtonStyle())
                         }
                     }
-                    .padding(.vertical, 24)
-                    .padding(.horizontal, 20)
                 }
+                .padding(.horizontal, 20)
             }
-            .navigationTitle("Ekicho")
+            .navigationBarHidden(true)
+        }
+    }
+}
+
+enum LogoShape {
+    case circle
+    case roundedRectangle
+}
+
+struct LogoItem: View {
+    let text: String
+    let shape: LogoShape
+    let color: Color
+    
+    var body: some View {
+        let frameSize: CGFloat = (shape == .circle) ? 52 : 48
+
+        ZStack {
+            // The outer colored shape
+            switch shape {
+            case .circle:
+                Circle()
+                    .fill(color)
+            case .roundedRectangle:
+                RoundedRectangle(cornerRadius: 12, style: .continuous)
+                    .fill(color)
+            }
+            
+            // The inner white shape, created by padding a smaller shape
+            switch shape {
+            case .circle:
+                Circle()
+                    .fill(Color.white)
+                    .padding(5) // Thicker border for circles
+            case .roundedRectangle:
+                RoundedRectangle(cornerRadius: 8, style: .continuous)
+                    .fill(Color.white)
+                    .padding(6) // Keep existing border for rectangles
+            }
+
+            Text(text)
+                .font(.system(size: 16, weight: .bold))
+                .foregroundColor(.black)
+        }
+        .frame(width: frameSize, height: frameSize)
+        .shadow(color: .black.opacity(0.1), radius: 4, x: 0, y: 2)
+    }
+}
+
+struct LogoView: View {
+    var body: some View {
+        HStack(spacing: 8) {
+            LogoItem(text: "E", shape: .circle, color: Color(hex: "#E60073"))
+            LogoItem(text: "KI", shape: .roundedRectangle, color: Color(hex: "#00BB85"))
+            LogoItem(text: "CH", shape: .roundedRectangle, color: Color(hex: "#F39700"))
+            LogoItem(text: "Ō", shape: .circle, color: Color(hex: "#0079C2"))
         }
     }
 }
