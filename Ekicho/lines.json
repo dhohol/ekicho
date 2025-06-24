@@ -537,7 +537,57 @@
     { "id": "shiromaru", "name": "Shiromaru" },
     { "id": "hatonosu", "name": "Hatonosu" },
     { "id": "kori", "name": "Kori" },
-    { "id": "oku-tama", "name": "Oku-Tama" }
+    { "id": "oku-tama", "name": "Oku-Tama" },
+    { "id": "kosuge", "name": "Kosuge" },
+    { "id": "gotanno", "name": "Gotanno" },
+    { "id": "umejima", "name": "Umejima" },
+    { "id": "takenotsuka", "name": "Takenotsuka" },
+    { "id": "nishiarai", "name": "Nishiarai" },
+    { "id": "daishimae", "name": "Daishimae" },
+    { "id": "seibu-shinjuku", "name": "Seibu-Shinjuku" },
+    { "id": "shimo-ochiai", "name": "Shimo-Ochiai" },
+    { "id": "nogata", "name": "Nogata" },
+    { "id": "toritsu-kasei", "name": "Toritsu-Kasei" },
+    { "id": "saginomiya", "name": "Saginomiya" },
+    { "id": "shimo-igusa", "name": "Shimo-Igusa" },
+    { "id": "iogi", "name": "Iogi" },
+    { "id": "kami-igusa", "name": "Kami-Igusa" },
+    { "id": "musashi-seki", "name": "Musashi-Seki" },
+    { "id": "higashi-fushimi", "name": "Higashi-Fushimi" },
+    { "id": "hanakoganei", "name": "Hanakoganei" },
+    { "id": "daikanyama", "name": "Daikanyama" },
+    { "id": "nakameguro", "name": "Nakameguro" },
+    { "id": "yutenji", "name": "Yutenji" },
+    { "id": "gakugei-daigaku", "name": "Gakugei-daigaku" },
+    { "id": "toritsudaigaku", "name": "Toritsudaigaku" },
+    { "id": "jiyugaoka", "name": "Jiyugaoka" },
+    { "id": "fudomae", "name": "Fudomae" },
+    { "id": "musashi-koyama", "name": "Musashi-Koyama" },
+    { "id": "nishi-koyama", "name": "Nishi-Koyama" },
+    { "id": "ookayama", "name": "Ookayama" },
+    { "id": "midori-ga-oka", "name": "Midori-ga-oka" },
+    { "id": "yaguchi-no-watashi", "name": "Yaguchi-no-Watashi" },
+    { "id": "musashi-nitta", "name": "Musashi-Nitta" },
+    { "id": "shimo-maruko", "name": "Shimo-Maruko" },
+    { "id": "numabe", "name": "Numabe" },
+    { "id": "tamagawa", "name": "Tamagawa" },
+    { "id": "fudomae", "name": "Fudomae" },
+    { "id": "hatanodai", "name": "Hatanodai" },
+    { "id": "ebaramachi", "name": "Ebaramachi" },
+    { "id": "senzoku", "name": "Senzoku" },
+    { "id": "kuhonbutsu", "name": "Kuhonbutsu" },
+    { "id": "odakyu-nagayama", "name": "Odakyu-Nagayama" },
+    { "id": "keisei-ueno", "name": "Keisei-Ueno" },
+    { "id": "senju-ohashi", "name": "Senju-Ōhashi" },
+    { "id": "hatsudai", "name": "Hatsudai" },
+    { "id": "hatagaya", "name": "Hatagaya" },
+    { "id": "kodaira", "name": "Kodaira" },
+    { "id": "ogawa", "name": "Ogawa" },
+    { "id": "takanodai", "name": "Takanodai" },
+    { "id": "higashi-murayama", "name": "Higashi-Murayama" },
+    { "id": "higashi-mukojima", "name": "Higashi-Mukojima" },
+    { "id": "omurai", "name": "Omurai" },
+    { "id": "kototoi", "name": "Kototoi" }
   ],
   "lines": [
     {
@@ -954,63 +1004,45 @@
     },
     {
       "lineName": "Shinjuku Line",
-      "company": "Toei",
-      "colorName": "lime",
-      "lineSymbol": "S",
-      "iconAssetName": "shinjuku",
+      "company": "Seibu",
+      "colorName": "green",
+      "lineSymbol": "SS",
+      "iconAssetName": "SS",
       "stations": [
-        "Shinjuku",
-        "Shinjuku-Gyoemmae",
-        "Shinjuku-sanchome",
-        "Akebonobashi",
-        "Ichigaya",
-        "Kudanshita",
-        "Jimbocho",
-        "Ogawamachi",
-        "Iwamotocho",
-        "Bakuro-yokoyama",
-        "Hamacho",
-        "Morishita",
-        "Kikukawa",
-        "Sumiyoshi",
-        "Nishi-ojima",
-        "Ojima",
-        "Higashi-ojima",
-        "Funabori",
-        "Ichinoe",
-        "Mizue",
-        "Shinozaki",
-        "Motoyawata"
+        "Seibu-Shinjuku",
+        "Takadanobaba",
+        "Shimo-Ochiai",
+        "Nakai",
+        "Nogata",
+        "Toritsu-Kasei",
+        "Saginomiya",
+        "Shimo-Igusa",
+        "Iogi",
+        "Kami-Igusa",
+        "Musashi-Seki",
+        "Higashi-Fushimi",
+        "Hanakoganei"
       ],
       "stationIDs": [
-        "shinjuku",
-        "shinjuku-gyoemmae",
-        "shinjuku-sanchome",
-        "akebonobashi",
-        "ichigaya",
-        "kudanshita",
-        "jimbocho",
-        "ogawamachi",
-        "iwamotocho",
-        "bakuro-yokoyama",
-        "hamacho",
-        "morishita",
-        "kikukawa",
-        "sumiyoshi",
-        "nishi-ojima",
-        "ojima",
-        "higashi-ojima",
-        "funabori",
-        "ichinoe",
-        "mizue",
-        "shinozaki",
-        "motoyawata"
+        "seibu-shinjuku",
+        "takadanobaba",
+        "shimo-ochiai",
+        "nakai",
+        "nogata",
+        "toritsu-kasei",
+        "saginomiya",
+        "shimo-igusa",
+        "iogi",
+        "kami-igusa",
+        "musashi-seki",
+        "higashi-fushimi",
+        "hanakoganei"
       ]
     },
     {
       "lineName": "Oedo Line",
       "company": "Toei",
-      "colorName": "magenta",
+      "colorName": "pink",
       "lineSymbol": "E",
       "iconAssetName": "oedo",
       "stations": [
@@ -1176,7 +1208,7 @@
     {
       "lineName": "Chūō Line (Rapid)",
       "company": "JR",
-      "colorName": "cyan",
+      "colorName": "red",
       "lineSymbol": "JC",
       "iconAssetName": "JC",
       "stations": ["Tokyo","Kanda","Ochanomizu","Yotsuya","Shinjuku","Nakano","Koenji","Asagaya","Ogikubo","Nishi-Ogikubo","Kichijoji","Mitaka","Musashi-Sakai","Higashi-Koganei","Kokubunji","Nishi-Kokubunji","Kunitachi","Tachikawa","Nishi-Tachikawa","Higashi-Nakagami","Koganei","Musashi-Koganei","Hachioji"],
@@ -1272,7 +1304,7 @@
     {
       "lineName": "Yōkosuka Line",
       "company": "JR",
-      "colorName": "navy",
+      "colorName": "blue",
       "lineSymbol": "JO",
       "iconAssetName": "JO",
       "stations": ["Tokyo","Shimbashi","Shinagawa","Nishi-Oi","Musashi-Kosugi","Shin-Kawasaki","Kawasaki","Tsurumi","Hodogaya","Higashi-Totsuka","Totsuka","Ofuna","Kamakura","Zushi","Yokosuka","Kurihama"],
@@ -1290,7 +1322,7 @@
     {
       "lineName": "Keio Line",
       "company": "Keio",
-      "colorName": "navy",
+      "colorName": "pink",
       "lineSymbol": "KO",
       "iconAssetName": "KO",
       "stations": [
@@ -1349,7 +1381,7 @@
     {
       "lineName": "Keio Inokashira Line",
       "company": "Keio",
-      "colorName": "turquoise",
+      "colorName": "blue",
       "lineSymbol": "IN",
       "iconAssetName": "IN",
       "stations": [
@@ -1498,6 +1530,7 @@
       "lineName": "Den-en-toshi Line",
       "company": "Tokyu",
       "colorName": "green",
+      "shape": "square",
       "lineSymbol": "DT",
       "iconAssetName": "DT",
       "stations": [
@@ -1561,6 +1594,7 @@
       "lineName": "Ikegami Line",
       "company": "Tokyu",
       "colorName": "pink",
+      "shape": "square",
       "lineSymbol": "IK",
       "iconAssetName": "IK",
       "stations": [
@@ -1687,7 +1721,7 @@
       ]
     },
     {
-      "lineName": "Keikyū",
+      "lineName": "Keikyū Main Line",
       "company": "Keikyū",
       "colorName": "red",
       "lineSymbol": "KK",
@@ -1806,7 +1840,7 @@
     {
       "lineName": "Yurikamome Line",
       "company": "Yurikamome",
-      "colorName": "cyan",
+      "colorName": "blue",
       "lineSymbol": "U",
       "iconAssetName": "U",
       "stations": [
@@ -1877,7 +1911,7 @@
     {
       "lineName": "Skytree Line",
       "company": "Tobu",
-      "colorName": "light blue",
+      "colorName": "blue",
       "lineSymbol": "TS",
       "shape": "square",
       "iconAssetName": "TS",
@@ -1901,13 +1935,19 @@
         "horikiri-shobuen",
         "ushida",
         "keisei-sekiya",
-        "kita-senju"
+        "kita-senju",
+        "kosuge",
+        "gotanno",
+        "umejima",
+        "takenotsuka",
+        "nishiarai",
+        "daishimae"
       ]
     },
     {
       "lineName": "Musashino Line",
       "company": "JR",
-      "colorName": "green",
+      "colorName": "orange",
       "lineSymbol": "JM",
       "shape": "square",
       "iconAssetName": "JM",
@@ -1939,7 +1979,7 @@
     {
       "lineName": "Keiyō Line",
       "company": "JR",
-      "colorName": "blue",
+      "colorName": "red",
       "lineSymbol": "JE",
       "shape": "square",
       "iconAssetName": "JE",
@@ -2075,6 +2115,7 @@
       "lineName": "Setagaya Line",
       "company": "Toei",
       "colorName": "yellow",
+      "shape": "square",
       "lineSymbol": "SG",
       "iconAssetName": "SG",
       "stations": [
@@ -2105,7 +2146,7 @@
     {
       "lineName": "Nambu Line",
       "company": "JR",
-      "colorName": "orange",
+      "colorName": "yellow",
       "lineSymbol": "JN",
       "shape": "square",
       "iconAssetName": "JN",
@@ -2181,7 +2222,7 @@
     {
       "lineName": "Saikyō Line",
       "company": "JR",
-      "colorName": "blue",
+      "colorName": "green",
       "lineSymbol": "JA",
       "shape": "square",
       "iconAssetName": "JA",
@@ -2211,7 +2252,7 @@
     {
       "lineName": "Tama Monorail",
       "company": "JR",
-      "colorName": "green",
+      "colorName": "blue",
       "lineSymbol": "TT",
       "shape": "square",
       "iconAssetName": "TT",
@@ -2258,35 +2299,28 @@
     },
     {
       "lineName": "Tamagawa Line",
-      "company": "Seibu",
-      "colorName": "orange",
-      "lineSymbol": "SW",
-      "iconAssetName": "SW",
+      "company": "Tokyu",
+      "colorName": "lightblue",
+      "lineSymbol": "TM",
+      "shape": "square",
+      "iconAssetName": "TM",
       "stations": [
-        "Musashi-Sakai",
-        "Higashi-Koganei",
-        "Kokubunji",
-        "Nishi-Kokubunji",
-        "Kunitachi",
-        "Tachikawa",
-        "Nishi-Tachikawa",
-        "Higashi-Nakagami",
-        "Koganei",
-        "Musashi-Koganei",
-        "Hachioji"
+        "Kamata",
+        "Hasunuma",
+        "Yaguchi-no-Watashi",
+        "Musashi-Nitta",
+        "Shimo-Maruko",
+        "Numabe",
+        "Tamagawa"
       ],
       "stationIDs": [
-        "musashi-sakai",
-        "higashi-koganei",
-        "kokubunji",
-        "nishi-kokubunji",
-        "kunitachi",
-        "tachikawa",
-        "nishi-tachikawa",
-        "higashi-nakagami",
-        "koganei",
-        "musashi-koganei",
-        "hachioji"
+        "kamata",
+        "hasunuma",
+        "yaguchi-no-watashi",
+        "musashi-nitta",
+        "shimo-maruko",
+        "numabe",
+        "tamagawa"
       ]
     },
     {
@@ -2375,6 +2409,189 @@
         "hatonosu",
         "kori",
         "oku-tama"
+      ]
+    },
+    {
+      "lineName": "Tōyoko Line",
+      "company": "Tokyu",
+      "colorName": "red",
+      "lineSymbol": "TY",
+      "shape": "square",
+      "iconAssetName": "TY",
+      "stations": [
+        "Shibuya",
+        "Daikanyama",
+        "Nakameguro",
+        "Yutenji",
+        "Gakugei-daigaku",
+        "Toritsudaigaku",
+        "Jiyugaoka"
+      ],
+      "stationIDs": [
+        "shibuya",
+        "daikanyama",
+        "nakameguro",
+        "yutenji",
+        "gakugei-daigaku",
+        "toritsudaigaku",
+        "jiyugaoka"
+      ]
+    },
+    {
+      "lineName": "Meguro Line",
+      "company": "Tokyu",
+      "colorName": "blue",
+      "shape": "square",
+      "lineSymbol": "MG",
+      "iconAssetName": "MG",
+      "stations": [
+        "Meguro",
+        "Fudomae",
+        "Musashi-Koyama",
+        "Nishi-Koyama",
+        "Ookayama",
+        "Midori-ga-oka",
+        "Jiyugaoka"
+      ],
+      "stationIDs": [
+        "meguro",
+        "fudomae",
+        "musashi-koyama",
+        "nishi-koyama",
+        "ookayama",
+        "midori-ga-oka",
+        "jiyugaoka"
+      ]
+    },
+    {
+      "lineName": "Ōimachi Line",
+      "company": "Tokyu",
+      "colorName": "orange",
+      "shape": "square",
+      "lineSymbol": "OM",
+      "iconAssetName": "OM",
+      "stations": [
+        "Oimachi",
+        "Hatanodai",
+        "Nakanobu",
+        "Ebaramachi",
+        "Senzoku",
+        "Ookayama",
+        "Midori-ga-oka",
+        "Jiyugaoka",
+        "Kuhonbutsu"
+      ],
+      "stationIDs": [
+        "oimachi",
+        "hatanodai",
+        "nakanobu",
+        "ebaramachi",
+        "senzoku",
+        "ookayama",
+        "midori-ga-oka",
+        "jiyugaoka",
+        "kuhonbutsu"
+      ]
+    },
+    {
+      "lineName": "Tama Line",
+      "company": "Odakyu",
+      "colorName": "blue",
+      "lineSymbol": "OT",
+      "iconAssetName": "OT",
+      "stations": [
+        "Odakyu-Nagayama",
+        "Tama Center",
+        "Karakida"
+      ],
+      "stationIDs": [
+        "odakyu-nagayama",
+        "tama-center",
+        "karakida"
+      ]
+    },
+    {
+      "lineName": "Main Line",
+      "company": "Keisei",
+      "colorName": "blue",
+      "lineSymbol": "KS",
+      "iconAssetName": "KS",
+      "stations": [
+        "Keisei-Ueno",
+        "Nippori",
+        "Senju-Ōhashi",
+        "Keisei Sekiya",
+        "Horikiri-Shobuen",
+        "Yotsugi",
+        "Aoto"
+      ],
+      "stationIDs": [
+        "keisei-ueno",
+        "nippori",
+        "senju-ohashi",
+        "keisei-sekiya",
+        "horikiri-shobuen",
+        "yotsugi",
+        "aoto"
+      ]
+    },
+    {
+      "lineName": "Keio New Line",
+      "company": "Keio",
+      "colorName": "pink",
+      "lineSymbol": "KO",
+      "iconAssetName": "KO",
+      "stations": [
+        "Shinjuku",
+        "Hatsudai",
+        "Hatagaya",
+        "Sasazuka"
+      ],
+      "stationIDs": [
+        "shinjuku",
+        "hatsudai",
+        "hatagaya",
+        "sasazuka"
+      ]
+    },
+    {
+      "lineName": "Haijima Line",
+      "company": "Seibu",
+      "colorName": "purple",
+      "lineSymbol": "SS",
+      "iconAssetName": "SS",
+      "stations": [
+        "Kodaira",
+        "Ogawa",
+        "Hagiyama",
+        "Musashi-Yamato"
+      ],
+      "stationIDs": [
+        "kodaira",
+        "ogawa",
+        "hagiyama",
+        "musashi-yamato"
+      ]
+    },
+    {
+      "lineName": "Kameido Line",
+      "company": "Tobu",
+      "colorName": "red",
+      "lineSymbol": "TS",
+      "iconAssetName": "TS",
+      "stations": [
+        "Hikifune",
+        "Higashi-Mukojima",
+        "Omurai",
+        "Kototoi",
+        "Kameido"
+      ],
+      "stationIDs": [
+        "hikifune",
+        "higashi-mukojima",
+        "omurai",
+        "kototoi",
+        "kameido"
       ]
     }
   ]
