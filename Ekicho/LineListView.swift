@@ -2,7 +2,7 @@ import SwiftUI
 
 // MARK: - LineListView
 struct LineListView: View {
-    @StateObject private var store = EkichoDataStore()
+    @EnvironmentObject var store: FirebaseDataStore
     
     var body: some View {
         NavigationView {
@@ -12,19 +12,38 @@ struct LineListView: View {
                         .padding(.top, 8)
                         .padding(.bottom, 12)
 
-                    ProgressComponent(progress: store.totalProgress)
-                    
-                    CompanyFilterView(store: store)
-                    
-                    LazyVStack(spacing: 20) {
-                        ForEach(store.filteredLines) { line in
-                            NavigationLink(destination: StationListView(line: line, store: store)) {
-                                LineCardView(
-                                    line: line,
-                                    visitedCount: store.visitedStationCount(for: line)
-                                )
+                    if store.isLoading {
+                        ProgressView("Loading data...")
+                            .padding()
+                    } else if let error = store.error {
+                        VStack {
+                            Text("Error loading data")
+                                .font(.headline)
+                                .foregroundColor(.red)
+                            Text(error)
+                                .font(.caption)
+                                .foregroundColor(.secondary)
+                            Button("Retry") {
+                                store.refreshData()
                             }
-                            .buttonStyle(PlainButtonStyle())
+                            .buttonStyle(.bordered)
+                        }
+                        .padding()
+                    } else {
+                        ProgressComponent(progress: store.totalProgress)
+                        
+                        CompanyFilterView(store: store)
+                        
+                        LazyVStack(spacing: 20) {
+                            ForEach(store.lines) { line in
+                                NavigationLink(destination: StationListView(line: line)) {
+                                    LineCardView(
+                                        line: line,
+                                        visitedCount: store.visitedStationCount(for: line)
+                                    )
+                                }
+                                .buttonStyle(PlainButtonStyle())
+                            }
                         }
                     }
                 }
@@ -122,7 +141,7 @@ struct ProgressComponent: View {
 
 // MARK: - CompanyFilterView
 struct CompanyFilterView: View {
-    @ObservedObject var store: EkichoDataStore
+    @ObservedObject var store: FirebaseDataStore
 
     var body: some View {
         VStack(alignment: .leading, spacing: 10) {
@@ -187,12 +206,12 @@ struct CompanyFilterButton: View {
 
 // MARK: - LineCardView
 struct LineCardView: View {
-    let line: TrainLine
+    let line: Line
     let visitedCount: Int
     
     private var progress: Double {
-        guard line.stationIDs.count > 0 else { return 0 }
-        return Double(visitedCount) / Double(line.stationIDs.count)
+        guard line.station_ids.count > 0 else { return 0 }
+        return Double(visitedCount) / Double(line.station_ids.count)
     }
     
     var body: some View {
@@ -245,7 +264,7 @@ struct LineCardView: View {
             VStack(alignment: .leading, spacing: 8) {
                 Text(line.name)
                     .font(.headline)
-                Text("\(visitedCount) of \(line.stationIDs.count) stations visited")
+                Text("\(visitedCount) of \(line.station_ids.count) stations visited")
                     .font(.subheadline)
                     .foregroundColor(.secondary)
                 ProgressView(value: progress)
@@ -262,4 +281,5 @@ struct LineCardView: View {
 
 #Preview {
     LineListView()
+        .environmentObject(FirebaseDataStore(firebaseService: FirebaseService()))
 } 

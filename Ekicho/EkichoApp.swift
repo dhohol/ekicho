@@ -7,6 +7,7 @@
 
 import SwiftUI
 import FirebaseCore
+import FirebaseAuth
 
 // Step 1: Create AppDelegate class
 class AppDelegate: NSObject, UIApplicationDelegate {
@@ -22,10 +23,32 @@ class AppDelegate: NSObject, UIApplicationDelegate {
 @main
 struct EkichoApp: App {
   @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
-
+  
   var body: some Scene {
     WindowGroup {
-        SignInView() // Your root view
+      ContentView()
+    }
+  }
+}
+
+struct ContentView: View {
+  @StateObject private var firebaseService = FirebaseService()
+  @StateObject private var authViewModel: AuthViewModel
+  @StateObject private var dataStore: FirebaseDataStore
+  
+  init() {
+    let firebaseService = FirebaseService()
+    self._firebaseService = StateObject(wrappedValue: firebaseService)
+    self._authViewModel = StateObject(wrappedValue: AuthViewModel(firebaseService: firebaseService))
+    self._dataStore = StateObject(wrappedValue: FirebaseDataStore(firebaseService: firebaseService))
+  }
+  
+  var body: some View {
+    if authViewModel.isSignedIn {
+      LineListView()
+        .environmentObject(dataStore)
+    } else {
+      SignInView(authViewModel: authViewModel)
     }
   }
 }

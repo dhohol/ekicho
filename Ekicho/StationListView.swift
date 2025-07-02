@@ -1,16 +1,16 @@
 import SwiftUI
 
 struct StationListView: View {
-    let line: TrainLine
-    @ObservedObject var store: EkichoDataStore
+    let line: Line
+    @EnvironmentObject var store: FirebaseDataStore
     
     private var visitedCount: Int {
         store.visitedStationCount(for: line)
     }
     
     private var progress: Double {
-        guard !line.stationIDs.isEmpty else { return 0 }
-        return Double(visitedCount) / Double(line.stationIDs.count)
+        guard !line.station_ids.isEmpty else { return 0 }
+        return Double(visitedCount) / Double(line.station_ids.count)
     }
     
     var body: some View {
@@ -20,7 +20,7 @@ struct StationListView: View {
                 Text(line.name)
                     .font(.title2)
                     .bold()
-                Text("\(visitedCount) of \(line.stationIDs.count) visited")
+                Text("\(visitedCount) of \(line.station_ids.count) visited")
                     .font(.subheadline)
                     .foregroundColor(.secondary)
                 ProgressView(value: progress)
@@ -33,13 +33,13 @@ struct StationListView: View {
             // Station List
             ScrollView(.vertical, showsIndicators: true) {
                 LazyVStack(spacing: 0) {
-                    ForEach(line.stationIDs, id: \.self) { stationID in
+                    ForEach(line.station_ids, id: \.self) { stationID in
                         if let station = store.stations[stationID] {
                             Button(action: {
                                 store.toggleVisited(station: station)
                             }) {
                                 HStack {
-                                    if store.visitedStationIDs.contains(station.id) {
+                                    if store.visitedStationIDs.contains(station.station_id) {
                                         Text(station.name)
                                             .strikethrough()
                                             .foregroundColor(.secondary)
@@ -48,7 +48,7 @@ struct StationListView: View {
                                             .foregroundColor(.primary)
                                     }
                                     Spacer()
-                                    if store.visitedStationIDs.contains(station.id) {
+                                    if store.visitedStationIDs.contains(station.station_id) {
                                         Image(systemName: "checkmark.circle.fill")
                                             .foregroundColor(.green)
                                     } else {
@@ -77,10 +77,24 @@ struct StationListView: View {
 #if DEBUG
 struct StationListView_Previews: PreviewProvider {
     static var previews: some View {
-        let store = EkichoDataStore()
-        let sampleLine = store.lines.first!
+        let firebaseService = FirebaseService()
+        let store = FirebaseDataStore(firebaseService: firebaseService)
+        let sampleLine = Line(
+            line_id: "sample",
+            name: "Sample Line",
+            company: "Sample Company",
+            city_id: "tokyo",
+            line_symbol: "SL",
+            color_name: "blue",
+            color_hex: "#007AFF",
+            shape: "circle",
+            icon_asset_name: "",
+            station_ids: ["station1", "station2"],
+            is_active: true
+        )
         return NavigationView {
-            StationListView(line: sampleLine, store: store)
+            StationListView(line: sampleLine)
+                .environmentObject(store)
         }
     }
 }

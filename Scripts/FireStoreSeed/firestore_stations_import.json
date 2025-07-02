@@ -1,0 +1,14 @@
+{
+  "stations": {
+    "tokyo_asakusa": {"station_id": "tokyo_asakusa", "name": "Asakusa", "city_id": "tokyo"},
+    "tokyo_tawaramachi": {"station_id": "tokyo_tawaramachi", "name": "Tawaramachi", "city_id": "tokyo"},
+    "tokyo_inaricho": {"station_id": "tokyo_inaricho", "name": "Inaricho", "city_id": "tokyo"},
+    "tokyo_ueno": {"station_id": "tokyo_ueno", "name": "Ueno", "city_id": "tokyo"},
+    "tokyo_ueno-hirokoji": {"station_id": "tokyo_ueno-hirokoji", "name": "Ueno-hirokoji", "city_id": "tokyo"},
+    "tokyo_suehirocho": {"station_id": "tokyo_suehirocho", "name": "Suehirocho", "city_id": "tokyo"},
+    "tokyo_kanda": {"station_id": "tokyo_kanda", "name": "Kanda", "city_id": "tokyo"},
+    "tokyo_mitsukoshimae": {"station_id": "tokyo_mitsukoshimae", "name": "Mitsukoshimae", "city_id": "tokyo"},
+    "tokyo_nihombashi": {"station_id": "tokyo_nihombashi", "name": "Nihombashi", "city_id": "tokyo"},
+    "tokyo_kyobashi": {"station_id": "tokyo_kyobashi", "name": "Kyobashi", "city_id": "tokyo"}
+  }
+}

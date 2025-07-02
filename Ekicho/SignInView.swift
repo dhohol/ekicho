@@ -11,29 +11,50 @@ import CryptoKit
 import FirebaseAuth
 
 struct SignInView: View {
+    @ObservedObject var authViewModel: AuthViewModel
     @State private var currentNonce: String?
-    @State private var isSignedIn = false
 
     var body: some View {
-        if isSignedIn {
-            LineListView()
-        } else {
-            VStack {
-                SignInWithAppleButton(
-                    .signIn,
-                    onRequest: { request in
-                        let nonce = randomNonceString()
-                        currentNonce = nonce
-                        request.requestedScopes = [.fullName, .email]
-                        request.nonce = sha256(nonce)
-                    },
-                    onCompletion: handleSignInWithApple
-                )
-                .frame(height: 45)
-                .signInWithAppleButtonStyle(.black)
-                .padding()
+        VStack(spacing: 20) {
+            // Logo
+            LogoView()
+                .padding(.top, 40)
+            
+            Spacer()
+            
+            // Sign in button
+            VStack(spacing: 16) {
+                if authViewModel.isLoading {
+                    ProgressView("Setting up your account...")
+                        .padding()
+                } else {
+                    SignInWithAppleButton(
+                        .signIn,
+                        onRequest: { request in
+                            let nonce = randomNonceString()
+                            currentNonce = nonce
+                            request.requestedScopes = [.fullName, .email]
+                            request.nonce = sha256(nonce)
+                        },
+                        onCompletion: handleSignInWithApple
+                    )
+                    .frame(height: 45)
+                    .signInWithAppleButtonStyle(.black)
+                }
+                
+                if let error = authViewModel.error {
+                    Text(error)
+                        .font(.caption)
+                        .foregroundColor(.red)
+                        .multilineTextAlignment(.center)
+                        .padding(.horizontal)
+                }
             }
+            .padding()
+            
+            Spacer()
         }
+        .background(Color(.systemBackground))
     }
 
     private func handleSignInWithApple(_ result: Result<ASAuthorization, Error>) {
@@ -60,9 +81,8 @@ struct SignInView: View {
                     print("❌ Firebase sign in failed: \(error.localizedDescription)")
                     return
                 }
-
                 print("✅ Signed in as: \(authResult?.user.uid ?? "")")
-                isSignedIn = true
+                // No need to set isSignedIn; AuthViewModel will update automatically
             }
 
         case .failure(let error):
