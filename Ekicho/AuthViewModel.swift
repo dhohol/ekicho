@@ -53,7 +53,7 @@ class AuthViewModel: ObservableObject {
                     // Cloud data exists, do not migrate
                     DispatchQueue.main.async {
                         self?.isLoading = false
-                        print("✅ User already has cloud visits, skipping migration.")
+                        // print("✅ User already has cloud visits, skipping migration.")
                     }
                 } else {
                     // Only migrate if there are no cloud visits
@@ -61,9 +61,9 @@ class AuthViewModel: ObservableObject {
                         DispatchQueue.main.async {
                             self?.isLoading = false
                             if migrationSuccess {
-                                print("✅ User setup and migration completed successfully")
+                                // print("✅ User setup and migration completed successfully")
                             } else {
-                                print("⚠️ User setup completed but migration failed or no data to migrate")
+                                // print("⚠️ User setup completed but migration failed or no data to migrate")
                             }
                         }
                     }

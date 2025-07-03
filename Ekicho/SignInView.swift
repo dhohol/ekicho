@@ -13,16 +13,18 @@ import FirebaseAuth
 struct SignInView: View {
     @ObservedObject var authViewModel: AuthViewModel
     @State private var currentNonce: String?
+    @Environment(\.colorScheme) var colorScheme
 
     var body: some View {
-        VStack(spacing: 20) {
-            // Logo
-            LogoView()
-                .padding(.top, 40)
+        VStack {
+            Spacer()
+            
+            // Title centered in the middle
+            EkichoTitleView()
             
             Spacer()
             
-            // Sign in button
+            // Sign in button at the bottom
             VStack(spacing: 16) {
                 if authViewModel.isLoading {
                     ProgressView("Setting up your account...")
@@ -38,8 +40,15 @@ struct SignInView: View {
                         },
                         onCompletion: handleSignInWithApple
                     )
-                    .frame(height: 45)
-                    .signInWithAppleButtonStyle(.black)
+                    .frame(height: 50)
+                    .cornerRadius(12)
+                    .padding(.horizontal, 20)
+                    .background(
+                        RoundedRectangle(cornerRadius: 12)
+                            .fill(Color(.systemBackground))
+                            .shadow(color: .black.opacity(0.1), radius: 4, x: 0, y: 2)
+                    )
+                    .signInWithAppleButtonStyle(colorScheme == .dark ? .white : .black)
                 }
                 
                 if let error = authViewModel.error {
@@ -50,9 +59,8 @@ struct SignInView: View {
                         .padding(.horizontal)
                 }
             }
-            .padding()
-            
-            Spacer()
+            .padding(.horizontal)
+            .padding(.bottom, 50)
         }
         .background(Color(.systemBackground))
     }
@@ -66,8 +74,8 @@ struct SignInView: View {
                 let tokenString = String(data: identityToken, encoding: .utf8),
                 let nonce = currentNonce
             else {
-                print("❌ Error retrieving token or nonce")
-                return
+                // print("❌ Error retrieving token or nonce")
+                break
             }
 
             let credential = OAuthProvider.credential(
@@ -78,15 +86,16 @@ struct SignInView: View {
 
             Auth.auth().signIn(with: credential) { (authResult, error) in
                 if let error = error {
-                    print("❌ Firebase sign in failed: \(error.localizedDescription)")
+                    // print("❌ Firebase sign in failed: \(error.localizedDescription)")
                     return
                 }
-                print("✅ Signed in as: \(authResult?.user.uid ?? "")")
+                // print("✅ Signed in as: \(authResult?.user.uid ?? "")")
                 // No need to set isSignedIn; AuthViewModel will update automatically
             }
 
         case .failure(let error):
-            print("❌ Sign in with Apple failed: \(error.localizedDescription)")
+            // print("❌ Sign in with Apple failed: \(error.localizedDescription)")
+            break
         }
     }
 }
@@ -122,3 +131,13 @@ func sha256(_ input: String) -> String {
     let hashed = SHA256.hash(data: inputData)
     return hashed.compactMap { String(format: "%02x", $0) }.joined()
 }
+
+#if DEBUG
+struct SignInView_Previews: PreviewProvider {
+    static var previews: some View {
+        let firebaseService = FirebaseService()
+        let authViewModel = AuthViewModel(firebaseService: firebaseService)
+        SignInView(authViewModel: authViewModel)
+    }
+}
+#endif

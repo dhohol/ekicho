@@ -69,7 +69,7 @@ class MigrationService {
             // Clean up local data
             UserDefaults.standard.removeObject(forKey: self.userDefaultsKey)
             
-            print("✅ Migration completed: \(successCount)/\(totalCount) visits migrated")
+            // print("✅ Migration completed: \(successCount)/\(totalCount) visits migrated")
             completion(successCount > 0)
         }
     }

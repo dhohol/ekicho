@@ -1,0 +1,7290 @@
+[
+  {
+    "id": "tokyo_akabane",
+    "name": "Akabane",
+    "station_id": "tokyo_akabane",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_keihin‑tohoku_line",
+      "tokyo_saikyo_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_akabane-iwabuchi",
+    "name": "Akabane-Iwabuchi",
+    "station_id": "tokyo_akabane-iwabuchi",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_namboku_line",
+      "tokyo_nippori_toneri_liner"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_akabanebashi",
+    "name": "Akabanebashi",
+    "station_id": "tokyo_akabanebashi",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_oedo_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_akasaka",
+    "name": "Akasaka",
+    "station_id": "tokyo_akasaka",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_chiyoda_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_akasaka-mitsuke",
+    "name": "Akasaka-mitsuke",
+    "station_id": "tokyo_akasaka-mitsuke",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_ginza_line",
+      "tokyo_hanzomon_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_akebonobashi",
+    "name": "Akebonobashi",
+    "station_id": "tokyo_akebonobashi",
+    "city_id": "tokyo",
+    "lat": null,
+    "lng": null,
+    "is_active": true,
+    "line_ids": [
+      "tokyo_shinjuku_line"
+    ]
+  },
+  {
+    "id": "tokyo_akigawa",
+    "name": "Akigawa",
+    "station_id": "tokyo_akigawa",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_ome_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_akihabara",
+    "name": "Akihabara",
+    "station_id": "tokyo_akihabara",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_hibiya_line",
+      "tokyo_yamanote_line",
+      "tokyo_keihin‑tohoku_line",
+      "tokyo_sobu_line",
+      "tokyo_tsukuba_express"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_akishima",
+    "name": "Akishima",
+    "station_id": "tokyo_akishima",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_itsukaichi_line",
+      "tokyo_ome_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_anamori-inari",
+    "name": "Anamori-inari",
+    "station_id": "tokyo_anamori-inari",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_keikyu_airport_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_aobadai",
+    "name": "Aobadai",
+    "station_id": "tokyo_aobadai",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_denen_toshi_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_aoi",
+    "name": "Aoi",
+    "station_id": "tokyo_aoi",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_tsukuba_express"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_aomi",
+    "name": "Aomi",
+    "station_id": "tokyo_aomi",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_yurikamome_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_aomono-yokocho",
+    "name": "Aomono-Yokocho",
+    "station_id": "tokyo_aomono-yokocho",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_keikyu_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_aoto",
+    "name": "Aoto",
+    "station_id": "tokyo_aoto",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_keisei_main_line",
+      "tokyo_oshiage_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_aoyama-itchome",
+    "name": "Aoyama-itchome",
+    "station_id": "tokyo_aoyama-itchome",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_ginza_line",
+      "tokyo_hanzomon_line",
+      "tokyo_oedo_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_arakawa-itchumae",
+    "name": "Arakawa-Itchumae",
+    "station_id": "tokyo_arakawa-itchumae",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_arakawa_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_arakawa-nichome",
+    "name": "Arakawa-Nichome",
+    "station_id": "tokyo_arakawa-nichome",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_arakawa_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_arakawa-shakomae",
+    "name": "Arakawa-Shakomae",
+    "station_id": "tokyo_arakawa-shakomae",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_arakawa_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_arakawa-yuenchimae",
+    "name": "Arakawa-Yuenchimae",
+    "station_id": "tokyo_arakawa-yuenchimae",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_arakawa_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_ariake",
+    "name": "Ariake",
+    "station_id": "tokyo_ariake",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_yurikamome_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_ariake-tennis-no-mori",
+    "name": "Ariake-tennis-no-mori",
+    "station_id": "tokyo_ariake-tennis-no-mori",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_yurikamome_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_asagaya",
+    "name": "Asagaya",
+    "station_id": "tokyo_asagaya",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_chuo_line",
+      "tokyo_sobu_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_asaka",
+    "name": "Asaka",
+    "station_id": "tokyo_asaka",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_tojo_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_asakusa",
+    "name": "Asakusa",
+    "station_id": "tokyo_asakusa",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_ginza_line",
+      "tokyo_asakusa_line",
+      "tokyo_skytree_line",
+      "tokyo_tsukuba_express"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_asakusabashi",
+    "name": "Asakusabashi",
+    "station_id": "tokyo_asakusabashi",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_asakusa_line",
+      "tokyo_sobu_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_ashigara",
+    "name": "Ashigara",
+    "station_id": "tokyo_ashigara",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_odakyu_odawara_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_asukayama",
+    "name": "Asukayama",
+    "station_id": "tokyo_asukayama",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_arakawa_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_atami",
+    "name": "Atami",
+    "station_id": "tokyo_atami",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_tokaido_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_atsugi",
+    "name": "Atsugi",
+    "station_id": "tokyo_atsugi",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_odakyu_odawara_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_ayase",
+    "name": "Ayase",
+    "station_id": "tokyo_ayase",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_chiyoda_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_azabu-juban",
+    "name": "Azabu-Juban",
+    "station_id": "tokyo_azabu-juban",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_namboku_line",
+      "tokyo_oedo_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_azamino",
+    "name": "Azamino",
+    "station_id": "tokyo_azamino",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_denen_toshi_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_bakuro-yokoyama",
+    "name": "Bakuro-yokoyama",
+    "station_id": "tokyo_bakuro-yokoyama",
+    "city_id": "tokyo",
+    "lat": null,
+    "lng": null,
+    "is_active": true,
+    "line_ids": [
+      "tokyo_shinjuku_line"
+    ]
+  },
+  {
+    "id": "tokyo_bampaku-kinen-koen",
+    "name": "Bampaku-Kinen-Kōen",
+    "station_id": "tokyo_bampaku-kinen-koen",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_tsukuba_express"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_bubaigawara",
+    "name": "Bubaigawara",
+    "station_id": "tokyo_bubaigawara",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_nambu_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_chiba",
+    "name": "Chiba",
+    "station_id": "tokyo_chiba",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_sobu_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_chidoricho",
+    "name": "Chidoricho",
+    "station_id": "tokyo_chidoricho",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_ikegami_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_chigasaki",
+    "name": "Chigasaki",
+    "station_id": "tokyo_chigasaki",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_tokaido_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_chikatetsu-akatsuka",
+    "name": "Chikatetsu-Akatsuka",
+    "station_id": "tokyo_chikatetsu-akatsuka",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_yurakucho_line",
+      "tokyo_fukutoshin_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_chikatetsu-narimasu",
+    "name": "Chikatetsu-Narimasu",
+    "station_id": "tokyo_chikatetsu-narimasu",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_yurakucho_line",
+      "tokyo_fukutoshin_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_chitose-funabashi",
+    "name": "Chitose-Funabashi",
+    "station_id": "tokyo_chitose-funabashi",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_odakyu_odawara_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_chitose-karasuyama",
+    "name": "Chitose-Karasuyama",
+    "station_id": "tokyo_chitose-karasuyama",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_keio_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_chofu",
+    "name": "Chofu",
+    "station_id": "tokyo_chofu",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_keio_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_chuorinkan",
+    "name": "Chuorinkan",
+    "station_id": "tokyo_chuorinkan",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_denen_toshi_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_daiba",
+    "name": "Daiba",
+    "station_id": "tokyo_daiba",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_yurikamome_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_daikanyama",
+    "name": "Daikanyama",
+    "station_id": "tokyo_daikanyama",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_toyoko_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_daimon",
+    "name": "Daimon",
+    "station_id": "tokyo_daimon",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_asakusa_line",
+      "tokyo_oedo_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_daishimae",
+    "name": "Daishimae",
+    "station_id": "tokyo_daishimae",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_skytree_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_daitabashi",
+    "name": "Daitabashi",
+    "station_id": "tokyo_daitabashi",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_keio_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_ebara-nakanobu",
+    "name": "Ebara-Nakanobu",
+    "station_id": "tokyo_ebara-nakanobu",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_ikegami_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_ebaramachi",
+    "name": "Ebaramachi",
+    "station_id": "tokyo_ebaramachi",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_oimachi_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_ebina",
+    "name": "Ebina",
+    "station_id": "tokyo_ebina",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_odakyu_odawara_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_ebisu",
+    "name": "Ebisu",
+    "station_id": "tokyo_ebisu",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_hibiya_line",
+      "tokyo_yamanote_line",
+      "tokyo_saikyo_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_eda",
+    "name": "Eda",
+    "station_id": "tokyo_eda",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_denen_toshi_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_edogawabashi",
+    "name": "Edogawabashi",
+    "station_id": "tokyo_edogawabashi",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_yurakucho_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_eifukucho",
+    "name": "Eifukucho",
+    "station_id": "tokyo_eifukucho",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_inokashira_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_etchujima",
+    "name": "Etchūjima",
+    "station_id": "tokyo_etchujima",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_keiyu_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_fuchu-honmachi",
+    "name": "Fuchu-Honmachi",
+    "station_id": "tokyo_fuchu-honmachi",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_musashino_line",
+      "tokyo_nambu_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_fuda",
+    "name": "Fuda",
+    "station_id": "tokyo_fuda",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_keio_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_fudomae",
+    "name": "Fudomae",
+    "station_id": "tokyo_fudomae",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_meguro_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_fujigaoka",
+    "name": "Fujigaoka",
+    "station_id": "tokyo_fujigaoka",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_denen_toshi_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_fujimigaoka",
+    "name": "Fujimigaoka",
+    "station_id": "tokyo_fujimigaoka",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_inokashira_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_fujino",
+    "name": "Fujino",
+    "station_id": "tokyo_fujino",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_hachiko_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_fujisawa",
+    "name": "Fujisawa",
+    "station_id": "tokyo_fujisawa",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_tokaido_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_funabori",
+    "name": "Funabori",
+    "station_id": "tokyo_funabori",
+    "city_id": "tokyo",
+    "lat": null,
+    "lng": null,
+    "is_active": true,
+    "line_ids": [
+      "tokyo_shinjuku_line"
+    ]
+  },
+  {
+    "id": "tokyo_futakotamagawa",
+    "name": "Futakotamagawa",
+    "station_id": "tokyo_futakotamagawa",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_denen_toshi_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_gaiemmae",
+    "name": "Gaiemmae",
+    "station_id": "tokyo_gaiemmae",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_ginza_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_gakugei-daigaku",
+    "name": "Gakugei-daigaku",
+    "station_id": "tokyo_gakugei-daigaku",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_toyoko_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_ginza",
+    "name": "Ginza",
+    "station_id": "tokyo_ginza",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_ginza_line",
+      "tokyo_hibiya_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_ginza-ichome",
+    "name": "Ginza-Ichome",
+    "station_id": "tokyo_ginza-ichome",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_yurakucho_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_gokokuji",
+    "name": "Gokokuji",
+    "station_id": "tokyo_gokokuji",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_yurakucho_line",
+      "tokyo_arakawa_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_gotanda",
+    "name": "Gotanda",
+    "station_id": "tokyo_gotanda",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_asakusa_line",
+      "tokyo_yamanote_line",
+      "tokyo_ikegami_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_gotanno",
+    "name": "Gotanno",
+    "station_id": "tokyo_gotanno",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_skytree_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_gotokuji",
+    "name": "Gotokuji",
+    "station_id": "tokyo_gotokuji",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_odakyu_odawara_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_hachimanyama",
+    "name": "Hachimanyama",
+    "station_id": "tokyo_hachimanyama",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_keio_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_hachioji",
+    "name": "Hachioji",
+    "station_id": "tokyo_hachioji",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_chuo_line",
+      "tokyo_itsukaichi_line",
+      "tokyo_hachiko_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_hadano",
+    "name": "Hadano",
+    "station_id": "tokyo_hadano",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_tokaido_line",
+      "tokyo_odakyu_odawara_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_hagiyama",
+    "name": "Hagiyama",
+    "station_id": "tokyo_hagiyama",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_tamako_line",
+      "tokyo_haijima_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_haijima",
+    "name": "Haijima",
+    "station_id": "tokyo_haijima",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_itsukaichi_line",
+      "tokyo_ome_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_hakusan",
+    "name": "Hakusan",
+    "station_id": "tokyo_hakusan",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_mita_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_hamacho",
+    "name": "Hamacho",
+    "station_id": "tokyo_hamacho",
+    "city_id": "tokyo",
+    "lat": null,
+    "lng": null,
+    "is_active": true,
+    "line_ids": [
+      "tokyo_shinjuku_line"
+    ]
+  },
+  {
+    "id": "tokyo_hamadayama",
+    "name": "Hamadayama",
+    "station_id": "tokyo_hamadayama",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_inokashira_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_hamamatsucho",
+    "name": "Hamamatsucho",
+    "station_id": "tokyo_hamamatsucho",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_yamanote_line",
+      "tokyo_keihin‑tohoku_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_hanakoganei",
+    "name": "Hanakoganei",
+    "station_id": "tokyo_hanakoganei",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_shinjuku_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_haneda-airport-terminal-1",
+    "name": "Haneda Airport Terminal 1",
+    "station_id": "tokyo_haneda-airport-terminal-1",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_monorail_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_haneda-airport-terminal-1-2",
+    "name": "Haneda Airport Terminal 1·2",
+    "station_id": "tokyo_haneda-airport-terminal-1-2",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_keikyu_airport_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_haneda-airport-terminal-2",
+    "name": "Haneda Airport Terminal 2",
+    "station_id": "tokyo_haneda-airport-terminal-2",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_monorail_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_haneda-airport-terminal-3",
+    "name": "Haneda Airport Terminal 3",
+    "station_id": "tokyo_haneda-airport-terminal-3",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_keikyu_airport_line",
+      "tokyo_monorail_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_hanno",
+    "name": "Hannō",
+    "station_id": "tokyo_hanno",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_ikebukuro_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_hanzomon",
+    "name": "Hanzomon",
+    "station_id": "tokyo_hanzomon",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_hanzomon_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_harajuku",
+    "name": "Harajuku",
+    "station_id": "tokyo_harajuku",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_yamanote_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_hashimoto",
+    "name": "Hashimoto",
+    "station_id": "tokyo_hashimoto",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_keio_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_hasune",
+    "name": "Hasune",
+    "station_id": "tokyo_hasune",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_mita_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_hasunuma",
+    "name": "Hasunuma",
+    "station_id": "tokyo_hasunuma",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_ikegami_line",
+      "tokyo_tamagawa_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_hatagaya",
+    "name": "Hatagaya",
+    "station_id": "tokyo_hatagaya",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_keio_new_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_hatanodai",
+    "name": "Hatanodai",
+    "station_id": "tokyo_hatanodai",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_oimachi_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_hatchobori",
+    "name": "Hatchobori",
+    "station_id": "tokyo_hatchobori",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_hibiya_line",
+      "tokyo_keiyu_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_hatonosu",
+    "name": "Hatonosu",
+    "station_id": "tokyo_hatonosu",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_ome_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_hatsudai",
+    "name": "Hatsudai",
+    "station_id": "tokyo_hatsudai",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_keio_new_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_heiwadai",
+    "name": "Heiwadai",
+    "station_id": "tokyo_heiwadai",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_yurakucho_line",
+      "tokyo_fukutoshin_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_heiwajima",
+    "name": "Heiwajima",
+    "station_id": "tokyo_heiwajima",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_keikyu_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_hibiya",
+    "name": "Hibiya",
+    "station_id": "tokyo_hibiya",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_hibiya_line",
+      "tokyo_chiyoda_line",
+      "tokyo_mita_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_higashi-akiru",
+    "name": "Higashi-Akiru",
+    "station_id": "tokyo_higashi-akiru",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_ome_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_higashi-fuchu",
+    "name": "Higashi-Fuchu",
+    "station_id": "tokyo_higashi-fuchu",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_musashino_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_higashi-fushimi",
+    "name": "Higashi-Fushimi",
+    "station_id": "tokyo_higashi-fushimi",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_shinjuku_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_higashi-ginza",
+    "name": "Higashi-ginza",
+    "station_id": "tokyo_higashi-ginza",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_hibiya_line",
+      "tokyo_asakusa_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_higashi-haijima",
+    "name": "Higashi-Haijima",
+    "station_id": "tokyo_higashi-haijima",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_ome_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_higashi-ikebukuro",
+    "name": "Higashi-Ikebukuro",
+    "station_id": "tokyo_higashi-ikebukuro",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_yurakucho_line",
+      "tokyo_arakawa_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_higashi-jujo",
+    "name": "Higashi-Jujo",
+    "station_id": "tokyo_higashi-jujo",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_keihin‑tohoku_line",
+      "tokyo_nippori_toneri_liner"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_higashi-kitazawa",
+    "name": "Higashi-Kitazawa",
+    "station_id": "tokyo_higashi-kitazawa",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_inokashira_line",
+      "tokyo_odakyu_odawara_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_higashi-koenji",
+    "name": "Higashi-Koenji",
+    "station_id": "tokyo_higashi-koenji",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_marunouchi_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_higashi-koganei",
+    "name": "Higashi-Koganei",
+    "station_id": "tokyo_higashi-koganei",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_chuo_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_higashi-mukojima",
+    "name": "Higashi-Mukojima",
+    "station_id": "tokyo_higashi-mukojima",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_skytree_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_higashi-murayama",
+    "name": "Higashi-Murayama",
+    "station_id": "tokyo_higashi-murayama",
+    "city_id": "tokyo",
+    "lat": null,
+    "lng": null,
+    "is_active": true,
+    "line_ids": [
+      "tokyo_shinjuku_line"
+    ]
+  },
+  {
+    "id": "tokyo_higashi-nagasaki",
+    "name": "Higashi-Nagasaki",
+    "station_id": "tokyo_higashi-nagasaki",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_ikebukuro_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_higashi-nakagami",
+    "name": "Higashi-Nakagami",
+    "station_id": "tokyo_higashi-nakagami",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_chuo_line",
+      "tokyo_musashino_line",
+      "tokyo_ome_line",
+      "tokyo_itsukaichi_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_higashi-nakano",
+    "name": "Higashi-nakano",
+    "station_id": "tokyo_higashi-nakano",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_tozai_line",
+      "tokyo_oedo_line",
+      "tokyo_sobu_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_higashi-nihombashi",
+    "name": "Higashi-nihombashi",
+    "station_id": "tokyo_higashi-nihombashi",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_asakusa_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_higashi-ojima",
+    "name": "Higashi-ojima",
+    "station_id": "tokyo_higashi-ojima",
+    "city_id": "tokyo",
+    "lat": null,
+    "lng": null,
+    "is_active": true,
+    "line_ids": [
+      "tokyo_shinjuku_line"
+    ]
+  },
+  {
+    "id": "tokyo_higashi-ome",
+    "name": "Higashi-Ome",
+    "station_id": "tokyo_higashi-ome",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_ome_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_higashi-shinjuku",
+    "name": "Higashi-Shinjuku",
+    "station_id": "tokyo_higashi-shinjuku",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_fukutoshin_line",
+      "tokyo_oedo_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_higashi-totsuka",
+    "name": "Higashi-Totsuka",
+    "station_id": "tokyo_higashi-totsuka",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_yokosuka_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_hikarigaoka",
+    "name": "Hikarigaoka",
+    "station_id": "tokyo_hikarigaoka",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_oedo_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_hikawadai",
+    "name": "Hikawadai",
+    "station_id": "tokyo_hikawadai",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_yurakucho_line",
+      "tokyo_fukutoshin_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_hinatawada",
+    "name": "Hinatawada",
+    "station_id": "tokyo_hinatawada",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_ome_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_hinode",
+    "name": "Hinode",
+    "station_id": "tokyo_hinode",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_yurikamome_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_hiratsuka",
+    "name": "Hiratsuka",
+    "station_id": "tokyo_hiratsuka",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_tokaido_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_hodogaya",
+    "name": "Hodogaya",
+    "station_id": "tokyo_hodogaya",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_yokosuka_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_hon-atsugi",
+    "name": "Hon-Atsugi",
+    "station_id": "tokyo_hon-atsugi",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_odakyu_odawara_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_hon-komagome",
+    "name": "Hon-Komagome",
+    "station_id": "tokyo_hon-komagome",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_namboku_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_hongo-sanchome",
+    "name": "Hongo-sanchome",
+    "station_id": "tokyo_hongo-sanchome",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_oedo_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_honjo-azumabashi",
+    "name": "Honjo-azumabashi",
+    "station_id": "tokyo_honjo-azumabashi",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_asakusa_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_horikiri-shobuen",
+    "name": "Horikiri-shobuen",
+    "station_id": "tokyo_horikiri-shobuen",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_skytree_line",
+      "tokyo_keisei_main_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_hoya",
+    "name": "Hoya",
+    "station_id": "tokyo_hoya",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_ikebukuro_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_ichigao",
+    "name": "Ichigao",
+    "station_id": "tokyo_ichigao",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_denen_toshi_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_ichigaya",
+    "name": "Ichigaya",
+    "station_id": "tokyo_ichigaya",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_yurakucho_line",
+      "tokyo_namboku_line",
+      "tokyo_sobu_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_ichikawa-shiohama",
+    "name": "Ichikawa-Shiohama",
+    "station_id": "tokyo_ichikawa-shiohama",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_keiyu_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_ichinoe",
+    "name": "Ichinoe",
+    "station_id": "tokyo_ichinoe",
+    "city_id": "tokyo",
+    "lat": null,
+    "lng": null,
+    "is_active": true,
+    "line_ids": [
+      "tokyo_shinjuku_line"
+    ]
+  },
+  {
+    "id": "tokyo_iidabashi",
+    "name": "Iidabashi",
+    "station_id": "tokyo_iidabashi",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_tozai_line",
+      "tokyo_yurakucho_line",
+      "tokyo_namboku_line",
+      "tokyo_oedo_line",
+      "tokyo_sobu_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_ikebukuro",
+    "name": "Ikebukuro",
+    "station_id": "tokyo_ikebukuro",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_marunouchi_line",
+      "tokyo_yurakucho_line",
+      "tokyo_fukutoshin_line",
+      "tokyo_yamanote_line",
+      "tokyo_ikebukuro_line",
+      "tokyo_tojo_line",
+      "tokyo_saikyo_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_ikegami",
+    "name": "Ikegami",
+    "station_id": "tokyo_ikegami",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_ikegami_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_ikejiri-ohashi",
+    "name": "Ikejiri-Ohashi",
+    "station_id": "tokyo_ikejiri-ohashi",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_denen_toshi_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_ikenoue",
+    "name": "Ikenoue",
+    "station_id": "tokyo_ikenoue",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_inokashira_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_ikuta",
+    "name": "Ikuta",
+    "station_id": "tokyo_ikuta",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_odakyu_odawara_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_inagi-naganuma",
+    "name": "Inagi-Naganuma",
+    "station_id": "tokyo_inagi-naganuma",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_nambu_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_inaricho",
+    "name": "Inaricho",
+    "station_id": "tokyo_inaricho",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_ginza_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_iogi",
+    "name": "Iogi",
+    "station_id": "tokyo_iogi",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_shinjuku_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_iriuda",
+    "name": "Iriuda",
+    "station_id": "tokyo_iriuda",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_odakyu_odawara_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_iriya",
+    "name": "Iriya",
+    "station_id": "tokyo_iriya",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_hibiya_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_isehara",
+    "name": "Isehara",
+    "station_id": "tokyo_isehara",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_odakyu_odawara_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_ishikawa-dai",
+    "name": "Ishikawa-dai",
+    "station_id": "tokyo_ishikawa-dai",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_ikegami_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_itabashi-honcho",
+    "name": "Itabashi-honcho",
+    "station_id": "tokyo_itabashi-honcho",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_mita_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_itabashikuyakushomae",
+    "name": "Itabashikuyakushomae",
+    "station_id": "tokyo_itabashikuyakushomae",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_mita_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_iwamotocho",
+    "name": "Iwamotocho",
+    "station_id": "tokyo_iwamotocho",
+    "city_id": "tokyo",
+    "lat": null,
+    "lng": null,
+    "is_active": true,
+    "line_ids": [
+      "tokyo_shinjuku_line"
+    ]
+  },
+  {
+    "id": "tokyo_izumi-taiikukan",
+    "name": "Izumi-Taiikukan",
+    "station_id": "tokyo_izumi-taiikukan",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_tama_monorail"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_izumi-tamagawa",
+    "name": "Izumi-Tamagawa",
+    "station_id": "tokyo_izumi-tamagawa",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_odakyu_odawara_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_jimbocho",
+    "name": "Jimbocho",
+    "station_id": "tokyo_jimbocho",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_hanzomon_line",
+      "tokyo_mita_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_jiyugaoka",
+    "name": "Jiyugaoka",
+    "station_id": "tokyo_jiyugaoka",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_toyoko_line",
+      "tokyo_meguro_line",
+      "tokyo_oimachi_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_josui",
+    "name": "Josui",
+    "station_id": "tokyo_josui",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_tama_monorail"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_jujo",
+    "name": "Jujo",
+    "station_id": "tokyo_jujo",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_keihin‑tohoku_line",
+      "tokyo_saikyo_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_kachidoki",
+    "name": "Kachidoki",
+    "station_id": "tokyo_kachidoki",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_oedo_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_kagurazaka",
+    "name": "Kagurazaka",
+    "station_id": "tokyo_kagurazaka",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_tozai_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_kaisei",
+    "name": "Kaisei",
+    "station_id": "tokyo_kaisei",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_odakyu_odawara_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_kajiwara",
+    "name": "Kajiwara",
+    "station_id": "tokyo_kajiwara",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_arakawa_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_kakio",
+    "name": "Kakio",
+    "station_id": "tokyo_kakio",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_odakyu_odawara_line",
+      "tokyo_denen_toshi_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_kamadaira",
+    "name": "Kamadaira",
+    "station_id": "tokyo_kamadaira",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_tama_monorail"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_kamakura",
+    "name": "Kamakura",
+    "station_id": "tokyo_kamakura",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_yokosuka_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_kamata",
+    "name": "Kamata",
+    "station_id": "tokyo_kamata",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_keihin‑tohoku_line",
+      "tokyo_ikegami_line",
+      "tokyo_tamagawa_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_kameido",
+    "name": "Kameido",
+    "station_id": "tokyo_kameido",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_sobu_line",
+      "tokyo_skytree_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_kami-igusa",
+    "name": "Kami-Igusa",
+    "station_id": "tokyo_kami-igusa",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_shinjuku_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_kami-kitazawa",
+    "name": "Kami-Kitazawa",
+    "station_id": "tokyo_kami-kitazawa",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_keio_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_kami-nakazato",
+    "name": "Kami-Nakazato",
+    "station_id": "tokyo_kami-nakazato",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_keihin‑tohoku_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_kamikitadai",
+    "name": "Kamikitadai",
+    "station_id": "tokyo_kamikitadai",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_tama_monorail"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_kamimachi",
+    "name": "Kamimachi",
+    "station_id": "tokyo_kamimachi",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_setagaya_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_kamonomiya",
+    "name": "Kamonomiya",
+    "station_id": "tokyo_kamonomiya",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_tokaido_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_kanamecho",
+    "name": "Kanamecho",
+    "station_id": "tokyo_kanamecho",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_yurakucho_line",
+      "tokyo_fukutoshin_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_kanda",
+    "name": "Kanda",
+    "station_id": "tokyo_kanda",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_ginza_line",
+      "tokyo_yamanote_line",
+      "tokyo_keihin‑tohoku_line",
+      "tokyo_chuo_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_kanegafuchi",
+    "name": "Kanegafuchi",
+    "station_id": "tokyo_kanegafuchi",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_skytree_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_karakida",
+    "name": "Karakida",
+    "station_id": "tokyo_karakida",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_odakyu_odawara_line",
+      "tokyo_tama_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_kasai",
+    "name": "Kasai",
+    "station_id": "tokyo_kasai",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_tozai_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_kasai-rinkai-koen",
+    "name": "Kasai-Rinkai-Kōen",
+    "station_id": "tokyo_kasai-rinkai-koen",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_keiyu_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_kashiwa-tanaka",
+    "name": "Kashiwa-Tanaka",
+    "station_id": "tokyo_kashiwa-tanaka",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_tsukuba_express"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_kasuga",
+    "name": "Kasuga",
+    "station_id": "tokyo_kasuga",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_mita_line",
+      "tokyo_oedo_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_kasumigaseki",
+    "name": "Kasumigaseki",
+    "station_id": "tokyo_kasumigaseki",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_hibiya_line",
+      "tokyo_chiyoda_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_kawagoe",
+    "name": "Kawagoe",
+    "station_id": "tokyo_kawagoe",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_tojo_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_kawaguchi",
+    "name": "Kawaguchi",
+    "station_id": "tokyo_kawaguchi",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_keihin‑tohoku_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_kawasaki",
+    "name": "Kawasaki",
+    "station_id": "tokyo_kawasaki",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_keihin‑tohoku_line",
+      "tokyo_yokosuka_line",
+      "tokyo_tokaido_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_kayabacho",
+    "name": "Kayabacho",
+    "station_id": "tokyo_kayabacho",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_hibiya_line",
+      "tokyo_tozai_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_kayama",
+    "name": "Kayama",
+    "station_id": "tokyo_kayama",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_odakyu_odawara_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_keikyu-kamata",
+    "name": "Keikyu-Kamata",
+    "station_id": "tokyo_keikyu-kamata",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_keikyu_line",
+      "tokyo_keikyu_airport_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_keio-horinouchi",
+    "name": "Keio-Horinouchi",
+    "station_id": "tokyo_keio-horinouchi",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_keio_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_keio-tamagawa",
+    "name": "Keio-Tamagawa",
+    "station_id": "tokyo_keio-tamagawa",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_keio_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_keisei-hikifune",
+    "name": "Keisei-Hikifune",
+    "station_id": "tokyo_keisei-hikifune",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_oshiage_line",
+      "tokyo_skytree_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_keisei-sekiya",
+    "name": "Keisei Sekiya",
+    "station_id": "tokyo_keisei-sekiya",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_skytree_line",
+      "tokyo_keisei_main_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_keisei-ueno",
+    "name": "Keisei-Ueno",
+    "station_id": "tokyo_keisei-ueno",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_keisei_main_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_kenkyu-gakuen",
+    "name": "Kenkyū-Gakuen",
+    "station_id": "tokyo_kenkyu-gakuen",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_tsukuba_express"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_kiba",
+    "name": "Kiba",
+    "station_id": "tokyo_kiba",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_tozai_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_kichijoji",
+    "name": "Kichijoji",
+    "station_id": "tokyo_kichijoji",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_chuo_line",
+      "tokyo_sobu_line",
+      "tokyo_inokashira_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_kikukawa",
+    "name": "Kikukawa",
+    "station_id": "tokyo_kikukawa",
+    "city_id": "tokyo",
+    "lat": null,
+    "lng": null,
+    "is_active": true,
+    "line_ids": [
+      "tokyo_shinjuku_line"
+    ]
+  },
+  {
+    "id": "tokyo_kinshicho",
+    "name": "Kinshicho",
+    "station_id": "tokyo_kinshicho",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_hanzomon_line",
+      "tokyo_sobu_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_kishibojin-mae",
+    "name": "Kishibojin-mae",
+    "station_id": "tokyo_kishibojin-mae",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_arakawa_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_kishimojin-mae",
+    "name": "Kishimojin-mae",
+    "station_id": "tokyo_kishimojin-mae",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_arakawa_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_kita-akabane",
+    "name": "Kita-Akabane",
+    "station_id": "tokyo_kita-akabane",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_saikyo_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_kita-ayase",
+    "name": "Kita-Ayase",
+    "station_id": "tokyo_kita-ayase",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_chiyoda_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_kita-fuchu",
+    "name": "Kita-Fuchu",
+    "station_id": "tokyo_kita-fuchu",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_nambu_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_kita-sando",
+    "name": "Kita-Sando",
+    "station_id": "tokyo_kita-sando",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_fukutoshin_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_kita-senju",
+    "name": "Kita-Senju",
+    "station_id": "tokyo_kita-senju",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_hibiya_line",
+      "tokyo_chiyoda_line",
+      "tokyo_skytree_line",
+      "tokyo_tsukuba_express"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_kita-urawa",
+    "name": "Kita-Urawa",
+    "station_id": "tokyo_kita-urawa",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_keihin‑tohoku_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_kita-yamadai",
+    "name": "Kita-Yamadai",
+    "station_id": "tokyo_kita-yamadai",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_tama_monorail"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_kitami",
+    "name": "Kitami",
+    "station_id": "tokyo_kitami",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_odakyu_odawara_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_kitano",
+    "name": "Kitano",
+    "station_id": "tokyo_kitano",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_keio_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_kitashinagawa",
+    "name": "Kitashinagawa",
+    "station_id": "tokyo_kitashinagawa",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_keikyu_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_kiyosumi-shirakawa",
+    "name": "Kiyosumi-shirakawa",
+    "station_id": "tokyo_kiyosumi-shirakawa",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_hanzomon_line",
+      "tokyo_oedo_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_kodaira",
+    "name": "Kodaira",
+    "station_id": "tokyo_kodaira",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_haijima_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_kodemmacho",
+    "name": "Kodemmacho",
+    "station_id": "tokyo_kodemmacho",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_hibiya_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_koenji",
+    "name": "Koenji",
+    "station_id": "tokyo_koenji",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_chuo_line",
+      "tokyo_sobu_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_koganei",
+    "name": "Koganei",
+    "station_id": "tokyo_koganei",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_chuo_line",
+      "tokyo_musashino_line",
+      "tokyo_itsukaichi_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_koigakubo",
+    "name": "Koigakubo",
+    "station_id": "tokyo_koigakubo",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_tamako_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_kojimachi",
+    "name": "Kojimachi",
+    "station_id": "tokyo_kojimachi",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_yurakucho_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_kojiya",
+    "name": "Kojiya",
+    "station_id": "tokyo_kojiya",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_keikyu_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_kokkai-gijidomae",
+    "name": "Kokkai-Gijidomae",
+    "station_id": "tokyo_kokkai-gijidomae",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_chiyoda_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_kokubunji",
+    "name": "Kokubunji",
+    "station_id": "tokyo_kokubunji",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_chuo_line",
+      "tokyo_tamako_line",
+      "tokyo_musashino_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_kokuritsu-kyogijo",
+    "name": "Kokuritsu-kyogijo",
+    "station_id": "tokyo_kokuritsu-kyogijo",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_oedo_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_kokuryo",
+    "name": "Kokuryo",
+    "station_id": "tokyo_kokuryo",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_keio_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_kokusai-tenjijo",
+    "name": "Kokusai-Tenjijo",
+    "station_id": "tokyo_kokusai-tenjijo",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_rinkai_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_komaba-todaimae",
+    "name": "Komaba-Todaimae",
+    "station_id": "tokyo_komaba-todaimae",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_inokashira_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_komae",
+    "name": "Komae",
+    "station_id": "tokyo_komae",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_odakyu_odawara_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_komagome",
+    "name": "Komagome",
+    "station_id": "tokyo_komagome",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_namboku_line",
+      "tokyo_yamanote_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_komazawa-daigaku",
+    "name": "Komazawa-Daigaku",
+    "station_id": "tokyo_komazawa-daigaku",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_denen_toshi_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_komikata",
+    "name": "Komikata",
+    "station_id": "tokyo_komikata",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_nippori_toneri_liner"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_korakuen",
+    "name": "Korakuen",
+    "station_id": "tokyo_korakuen",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_marunouchi_line",
+      "tokyo_namboku_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_kori",
+    "name": "Kori",
+    "station_id": "tokyo_kori",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_ome_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_koshinzuka",
+    "name": "Koshinzuka",
+    "station_id": "tokyo_koshinzuka",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_arakawa_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_kosuge",
+    "name": "Kosuge",
+    "station_id": "tokyo_kosuge",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_skytree_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_kotake-mukaihara",
+    "name": "Kotake-Mukaihara",
+    "station_id": "tokyo_kotake-mukaihara",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_yurakucho_line",
+      "tokyo_fukutoshin_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_kotesashi",
+    "name": "Kotesashi",
+    "station_id": "tokyo_kotesashi",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_ikebukuro_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_kototoi",
+    "name": "Kototoi",
+    "station_id": "tokyo_kototoi",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_skytree_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_kozu",
+    "name": "Kozu",
+    "station_id": "tokyo_kozu",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_tokaido_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_kudanshita",
+    "name": "Kudanshita",
+    "station_id": "tokyo_kudanshita",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_tozai_line",
+      "tokyo_chiyoda_line",
+      "tokyo_hanzomon_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_kugahara",
+    "name": "Kugahara",
+    "station_id": "tokyo_kugahara",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_ikegami_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_kuhonbutsu",
+    "name": "Kuhonbutsu",
+    "station_id": "tokyo_kuhonbutsu",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_oimachi_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_kumagawa",
+    "name": "Kumagawa",
+    "station_id": "tokyo_kumagawa",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_ome_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_kunitachi",
+    "name": "Kunitachi",
+    "station_id": "tokyo_kunitachi",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_chuo_line",
+      "tokyo_musashino_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_kuragano",
+    "name": "Kuragano",
+    "station_id": "tokyo_kuragano",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_hachiko_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_kurihama",
+    "name": "Kurihama",
+    "station_id": "tokyo_kurihama",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_yokosuka_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_kurihira",
+    "name": "Kurihira",
+    "station_id": "tokyo_kurihira",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_odakyu_odawara_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_kurokawa",
+    "name": "Kurokawa",
+    "station_id": "tokyo_kurokawa",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_odakyu_odawara_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_kyobashi",
+    "name": "Kyobashi",
+    "station_id": "tokyo_kyobashi",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_ginza_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_kyodo",
+    "name": "Kyodo",
+    "station_id": "tokyo_kyodo",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_odakyu_odawara_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_machida",
+    "name": "Machida",
+    "station_id": "tokyo_machida",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_odakyu_odawara_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_machiya",
+    "name": "Machiya",
+    "station_id": "tokyo_machiya",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_chiyoda_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_magome",
+    "name": "Magome",
+    "station_id": "tokyo_magome",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_asakusa_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_maihama",
+    "name": "Maihama",
+    "station_id": "tokyo_maihama",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_keiyu_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_matsubara",
+    "name": "Matsubara",
+    "station_id": "tokyo_matsubara",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_setagaya_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_matsuda",
+    "name": "Matsuda",
+    "station_id": "tokyo_matsuda",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_tokaido_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_matsugaya",
+    "name": "Matsugaya",
+    "station_id": "tokyo_matsugaya",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_tama_monorail"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_mayonaka",
+    "name": "Mayonaka",
+    "station_id": "tokyo_mayonaka",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_odakyu_odawara_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_meguro",
+    "name": "Meguro",
+    "station_id": "tokyo_meguro",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_namboku_line",
+      "tokyo_mita_line",
+      "tokyo_yamanote_line",
+      "tokyo_meguro_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_meidaimae",
+    "name": "Meidaimae",
+    "station_id": "tokyo_meidaimae",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_keio_new_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_meiji-jingumae",
+    "name": "Meiji-Jingumae",
+    "station_id": "tokyo_meiji-jingumae",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_chiyoda_line",
+      "tokyo_fukutoshin_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_midori-ga-oka",
+    "name": "Midori-ga-oka",
+    "station_id": "tokyo_midori-ga-oka",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_meguro_line",
+      "tokyo_oimachi_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_midorino",
+    "name": "Midorino",
+    "station_id": "tokyo_midorino",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_tsukuba_express"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_minami-asagaya",
+    "name": "Minami-Asagaya",
+    "station_id": "tokyo_minami-asagaya",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_marunouchi_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_minami-fuchu",
+    "name": "Minami-Fuchu",
+    "station_id": "tokyo_minami-fuchu",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_nambu_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_minami-machida-grandberry-park",
+    "name": "Minami-Machida-Grandberry-Park",
+    "station_id": "tokyo_minami-machida-grandberry-park",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_denen_toshi_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_minami-nagareyama",
+    "name": "Minami-Nagareyama",
+    "station_id": "tokyo_minami-nagareyama",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_tsukuba_express"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_minami-osawa",
+    "name": "Minami-Osawa",
+    "station_id": "tokyo_minami-osawa",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_keio_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_minami-senju",
+    "name": "Minami-Senju",
+    "station_id": "tokyo_minami-senju",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_hibiya_line",
+      "tokyo_tsukuba_express"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_minami-shinjuku",
+    "name": "Minami-Shinjuku",
+    "station_id": "tokyo_minami-shinjuku",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_odakyu_odawara_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_minami-urawa",
+    "name": "Minami-Urawa",
+    "station_id": "tokyo_minami-urawa",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_keihin‑tohoku_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_minowa",
+    "name": "Minowa",
+    "station_id": "tokyo_minowa",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_hibiya_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_minowabashi",
+    "name": "Minowabashi",
+    "station_id": "tokyo_minowabashi",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_arakawa_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_miraidaira",
+    "name": "Miraidaira",
+    "station_id": "tokyo_miraidaira",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_tsukuba_express"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_misato-chuo",
+    "name": "Misato-Chūō",
+    "station_id": "tokyo_misato-chuo",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_tsukuba_express"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_mishima",
+    "name": "Mishima",
+    "station_id": "tokyo_mishima",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_tokaido_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_mita",
+    "name": "Mita",
+    "station_id": "tokyo_mita",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_namboku_line",
+      "tokyo_asakusa_line",
+      "tokyo_mita_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_mitaka",
+    "name": "Mitaka",
+    "station_id": "tokyo_mitaka",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_chuo_line",
+      "tokyo_sobu_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_mitakadai",
+    "name": "Mitakadai",
+    "station_id": "tokyo_mitakadai",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_inokashira_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_mitake",
+    "name": "Mitake",
+    "station_id": "tokyo_mitake",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_ome_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_mitsukoshimae",
+    "name": "Mitsukoshimae",
+    "station_id": "tokyo_mitsukoshimae",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_ginza_line",
+      "tokyo_hanzomon_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_miyamaedaira",
+    "name": "Miyamaedaira",
+    "station_id": "tokyo_miyamaedaira",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_denen_toshi_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_miyanosaka",
+    "name": "Miyanosaka",
+    "station_id": "tokyo_miyanosaka",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_setagaya_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_miyazakidai",
+    "name": "Miyazakidai",
+    "station_id": "tokyo_miyazakidai",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_denen_toshi_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_mizonokuchi",
+    "name": "Mizonokuchi",
+    "station_id": "tokyo_mizonokuchi",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_denen_toshi_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_mizue",
+    "name": "Mizue",
+    "station_id": "tokyo_mizue",
+    "city_id": "tokyo",
+    "lat": null,
+    "lng": null,
+    "is_active": true,
+    "line_ids": [
+      "tokyo_shinjuku_line"
+    ]
+  },
+  {
+    "id": "tokyo_monorail-hamamatsucho",
+    "name": "Monorail Hamamatsuchō",
+    "station_id": "tokyo_monorail-hamamatsucho",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_monorail_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_monzen-nakacho",
+    "name": "Monzen-Nakacho",
+    "station_id": "tokyo_monzen-nakacho",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_tozai_line",
+      "tokyo_oedo_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_morishita",
+    "name": "Morishita",
+    "station_id": "tokyo_morishita",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_oedo_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_moriya",
+    "name": "Moriya",
+    "station_id": "tokyo_moriya",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_tsukuba_express"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_motohasunuma",
+    "name": "Motohasunuma",
+    "station_id": "tokyo_motohasunuma",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_mita_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_motoyawata",
+    "name": "Motoyawata",
+    "station_id": "tokyo_motoyawata",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_sobu_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_mukogaoka-yuen",
+    "name": "Mukogaoka-Yuen",
+    "station_id": "tokyo_mukogaoka-yuen",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_odakyu_odawara_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_mukohara",
+    "name": "Mukohara",
+    "station_id": "tokyo_mukohara",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_arakawa_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_musashi-hikida",
+    "name": "Musashi-Hikida",
+    "station_id": "tokyo_musashi-hikida",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_ome_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_musashi-itsukaichi",
+    "name": "Musashi-Itsukaichi",
+    "station_id": "tokyo_musashi-itsukaichi",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_itsukaichi_line",
+      "tokyo_ome_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_musashi-iwai",
+    "name": "Musashi-Iwai",
+    "station_id": "tokyo_musashi-iwai",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_ome_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_musashi-koganei",
+    "name": "Musashi-Koganei",
+    "station_id": "tokyo_musashi-koganei",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_chuo_line",
+      "tokyo_musashino_line",
+      "tokyo_itsukaichi_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_musashi-kosugi",
+    "name": "Musashi-Kosugi",
+    "station_id": "tokyo_musashi-kosugi",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_yokosuka_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_musashi-koyama",
+    "name": "Musashi-Koyama",
+    "station_id": "tokyo_musashi-koyama",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_meguro_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_musashi-masuko",
+    "name": "Musashi-Masuko",
+    "station_id": "tokyo_musashi-masuko",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_ome_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_musashi-nitta",
+    "name": "Musashi-Nitta",
+    "station_id": "tokyo_musashi-nitta",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_tamagawa_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_musashi-sakai",
+    "name": "Musashi-Sakai",
+    "station_id": "tokyo_musashi-sakai",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_chuo_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_musashi-seki",
+    "name": "Musashi-Seki",
+    "station_id": "tokyo_musashi-seki",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_shinjuku_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_musashi-sunagawa",
+    "name": "Musashi-Sunagawa",
+    "station_id": "tokyo_musashi-sunagawa",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_tama_monorail"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_musashi-yamato",
+    "name": "Musashi-Yamato",
+    "station_id": "tokyo_musashi-yamato",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_tamako_line",
+      "tokyo_haijima_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_nagahara",
+    "name": "Nagahara",
+    "station_id": "tokyo_nagahara",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_ikegami_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_nagareyama-otakanomori",
+    "name": "Nagareyama-Ōtakanomori",
+    "station_id": "tokyo_nagareyama-otakanomori",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_tsukuba_express"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_nagatacho",
+    "name": "Nagatacho",
+    "station_id": "tokyo_nagatacho",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_yurakucho_line",
+      "tokyo_hanzomon_line",
+      "tokyo_namboku_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_nagatsuta",
+    "name": "Nagatsuta",
+    "station_id": "tokyo_nagatsuta",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_denen_toshi_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_naka-okachimachi",
+    "name": "Naka-Okachimachi",
+    "station_id": "tokyo_naka-okachimachi",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_hibiya_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_nakagami",
+    "name": "Nakagami",
+    "station_id": "tokyo_nakagami",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_ome_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_nakai",
+    "name": "Nakai",
+    "station_id": "tokyo_nakai",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_shinjuku_line",
+      "tokyo_oedo_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_nakameguro",
+    "name": "Nakameguro",
+    "station_id": "tokyo_nakameguro",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_toyoko_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_nakano",
+    "name": "Nakano",
+    "station_id": "tokyo_nakano",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_tozai_line",
+      "tokyo_chuo_line",
+      "tokyo_sobu_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_nakano-sakaue",
+    "name": "Nakano-Sakaue",
+    "station_id": "tokyo_nakano-sakaue",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_marunouchi_line",
+      "tokyo_oedo_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_nakanobu",
+    "name": "Nakanobu",
+    "station_id": "tokyo_nakanobu",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_asakusa_line",
+      "tokyo_oimachi_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_nerima",
+    "name": "Nerima",
+    "station_id": "tokyo_nerima",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_oedo_line",
+      "tokyo_ikebukuro_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_nerima-kasugacho",
+    "name": "Nerima-kasugacho",
+    "station_id": "tokyo_nerima-kasugacho",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_oedo_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_nezu",
+    "name": "Nezu",
+    "station_id": "tokyo_nezu",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_chiyoda_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_nihombashi",
+    "name": "Nihombashi",
+    "station_id": "tokyo_nihombashi",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_ginza_line",
+      "tokyo_tozai_line",
+      "tokyo_asakusa_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_nijubashimae",
+    "name": "Nijubashimae",
+    "station_id": "tokyo_nijubashimae",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_chiyoda_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_ninomiya",
+    "name": "Ninomiya",
+    "station_id": "tokyo_ninomiya",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_tokaido_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_nippori",
+    "name": "Nippori",
+    "station_id": "tokyo_nippori",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_yamanote_line",
+      "tokyo_keihin‑tohoku_line",
+      "tokyo_nippori_toneri_liner",
+      "tokyo_keisei_main_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_nishi-eifuku",
+    "name": "Nishi-Eifuku",
+    "station_id": "tokyo_nishi-eifuku",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_inokashira_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_nishi-funabashi",
+    "name": "Nishi-Funabashi",
+    "station_id": "tokyo_nishi-funabashi",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_tozai_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_nishi-hachioji",
+    "name": "Nishi-Hachioji",
+    "station_id": "tokyo_nishi-hachioji",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_hachiko_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_nishi-kasai",
+    "name": "Nishi-Kasai",
+    "station_id": "tokyo_nishi-kasai",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_tozai_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_nishi-kawaguchi",
+    "name": "Nishi-Kawaguchi",
+    "station_id": "tokyo_nishi-kawaguchi",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_keihin‑tohoku_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_nishi-kokubunji",
+    "name": "Nishi-Kokubunji",
+    "station_id": "tokyo_nishi-kokubunji",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_chuo_line",
+      "tokyo_musashino_line",
+      "tokyo_nambu_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_nishi-koyama",
+    "name": "Nishi-Koyama",
+    "station_id": "tokyo_nishi-koyama",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_meguro_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_nishi-kunitachi",
+    "name": "Nishi-Kunitachi",
+    "station_id": "tokyo_nishi-kunitachi",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_nambu_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_nishi-magome",
+    "name": "Nishi-magome",
+    "station_id": "tokyo_nishi-magome",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_asakusa_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_nishi-nippori",
+    "name": "Nishi-Nippori",
+    "station_id": "tokyo_nishi-nippori",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_chiyoda_line",
+      "tokyo_yamanote_line",
+      "tokyo_keihin‑tohoku_line",
+      "tokyo_nippori_toneri_liner"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_nishi-ogikubo",
+    "name": "Nishi-Ogikubo",
+    "station_id": "tokyo_nishi-ogikubo",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_chuo_line",
+      "tokyo_sobu_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_nishi-oi",
+    "name": "Nishi-Oi",
+    "station_id": "tokyo_nishi-oi",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_yokosuka_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_nishi-ojima",
+    "name": "Nishi-ojima",
+    "station_id": "tokyo_nishi-ojima",
+    "city_id": "tokyo",
+    "lat": null,
+    "lng": null,
+    "is_active": true,
+    "line_ids": [
+      "tokyo_shinjuku_line"
+    ]
+  },
+  {
+    "id": "tokyo_nishi-shinjuku-gochome",
+    "name": "Nishi-shinjuku-gochome",
+    "station_id": "tokyo_nishi-shinjuku-gochome",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_oedo_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_nishi-sugamo",
+    "name": "Nishi-sugamo",
+    "station_id": "tokyo_nishi-sugamo",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_mita_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_nishi-tachikawa",
+    "name": "Nishi-Tachikawa",
+    "station_id": "tokyo_nishi-tachikawa",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_chuo_line",
+      "tokyo_musashino_line",
+      "tokyo_ome_line",
+      "tokyo_itsukaichi_linee"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_nishi-taishido",
+    "name": "Nishi-Taishido",
+    "station_id": "tokyo_nishi-taishido",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_setagaya_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_nishi-takashimadaira",
+    "name": "Nishi-takashimadaira",
+    "station_id": "tokyo_nishi-takashimadaira",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_mita_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_nishi-waseda",
+    "name": "Nishi-Waseda",
+    "station_id": "tokyo_nishi-waseda",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_fukutoshin_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_nishiarai",
+    "name": "Nishiarai",
+    "station_id": "tokyo_nishiarai",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_skytree_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_nishidai",
+    "name": "Nishidai",
+    "station_id": "tokyo_nishidai",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_mita_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_nishigahara",
+    "name": "Nishigahara",
+    "station_id": "tokyo_nishigahara",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_namboku_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_noborito",
+    "name": "Noborito",
+    "station_id": "tokyo_noborito",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_odakyu_odawara_line",
+      "tokyo_nambu_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_nogata",
+    "name": "Nogata",
+    "station_id": "tokyo_nogata",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_shinjuku_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_nogizaka",
+    "name": "Nogizaka",
+    "station_id": "tokyo_nogizaka",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_chiyoda_line",
+      "tokyo_hanzomon_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_numabe",
+    "name": "Numabe",
+    "station_id": "tokyo_numabe",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_tamagawa_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_numazu",
+    "name": "Numazu",
+    "station_id": "tokyo_numazu",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_tokaido_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_ochanomizu",
+    "name": "Ochanomizu",
+    "station_id": "tokyo_ochanomizu",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_chuo_line",
+      "tokyo_sobu_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_ochiai",
+    "name": "Ochiai",
+    "station_id": "tokyo_ochiai",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_tozai_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_ochiai-minami-nagasaki",
+    "name": "Ochiai-minami-nagasaki",
+    "station_id": "tokyo_ochiai-minami-nagasaki",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_oedo_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_odaiba-kaihinkoen",
+    "name": "Odaiba-kaihinkoen",
+    "station_id": "tokyo_odaiba-kaihinkoen",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_yurikamome_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_odakyu-nagayama",
+    "name": "Odakyu-Nagayama",
+    "station_id": "tokyo_odakyu-nagayama",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_tama_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_odakyu-sagamihara",
+    "name": "Odakyu-Sagamihara",
+    "station_id": "tokyo_odakyu-sagamihara",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_odakyu_odawara_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_odawara",
+    "name": "Odawara",
+    "station_id": "tokyo_odawara",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_odakyu_odawara_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_ofuna",
+    "name": "Ofuna",
+    "station_id": "tokyo_ofuna",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_keihin‑tohoku_line",
+      "tokyo_yokosuka_line",
+      "tokyo_tokaido_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_ogawa",
+    "name": "Ogawa",
+    "station_id": "tokyo_ogawa",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_haijima_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_ogawamachi",
+    "name": "Ogawamachi",
+    "station_id": "tokyo_ogawamachi",
+    "city_id": "tokyo",
+    "lat": null,
+    "lng": null,
+    "is_active": true,
+    "line_ids": [
+      "tokyo_shinjuku_line"
+    ]
+  },
+  {
+    "id": "tokyo_ogikubo",
+    "name": "Ogikubo",
+    "station_id": "tokyo_ogikubo",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_marunouchi_line",
+      "tokyo_chuo_line",
+      "tokyo_sobu_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_oi-keibajo-mae",
+    "name": "Ōi Keibajō Mae",
+    "station_id": "tokyo_oi-keibajo-mae",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_monorail_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_oimachi",
+    "name": "Ōimachi",
+    "station_id": "tokyo_oimachi",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_keihin‑tohoku_line",
+      "tokyo_rinkai_line",
+      "tokyo_oimachi_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_oiso",
+    "name": "Oiso",
+    "station_id": "tokyo_oiso",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_tokaido_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_oji",
+    "name": "Oji",
+    "station_id": "tokyo_oji",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_namboku_line",
+      "tokyo_keihin‑tohoku_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_oji-ekimae",
+    "name": "Oji-Ekimae",
+    "station_id": "tokyo_oji-ekimae",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_arakawa_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_oji-kamiya",
+    "name": "Oji-Kamiya",
+    "station_id": "tokyo_oji-kamiya",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_namboku_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_ojima",
+    "name": "Ojima",
+    "station_id": "tokyo_ojima",
+    "city_id": "tokyo",
+    "lat": null,
+    "lng": null,
+    "is_active": true,
+    "line_ids": [
+      "tokyo_shinjuku_line"
+    ]
+  },
+  {
+    "id": "tokyo_okachimachi",
+    "name": "Okachimachi",
+    "station_id": "tokyo_okachimachi",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_yamanote_line",
+      "tokyo_keihin‑tohoku_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_oku-tama",
+    "name": "Oku-Tama",
+    "station_id": "tokyo_oku-tama",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_ome_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_ome",
+    "name": "Ome",
+    "station_id": "tokyo_ome",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_ome_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_omiya",
+    "name": "Omiya",
+    "station_id": "tokyo_omiya",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_keihin‑tohoku_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_omokagebashi",
+    "name": "Omokagebashi",
+    "station_id": "tokyo_omokagebashi",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_arakawa_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_omori-kaigan",
+    "name": "Omori-Kaigan",
+    "station_id": "tokyo_omori-kaigan",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_keikyu_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_omorimachi",
+    "name": "Omorimachi",
+    "station_id": "tokyo_omorimachi",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_keikyu_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_omotesando",
+    "name": "Omotesando",
+    "station_id": "tokyo_omotesando",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_ginza_line",
+      "tokyo_hanzomon_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_omurai",
+    "name": "Omurai",
+    "station_id": "tokyo_omurai",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_skytree_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_onarimon",
+    "name": "Onarimon",
+    "station_id": "tokyo_onarimon",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_mita_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_ontakesan",
+    "name": "Ontakesan",
+    "station_id": "tokyo_ontakesan",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_ikegami_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_ookayama",
+    "name": "Ookayama",
+    "station_id": "tokyo_ookayama",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_meguro_line",
+      "tokyo_oimachi_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_osaki",
+    "name": "Osaki",
+    "station_id": "tokyo_osaki",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_yamanote_line",
+      "tokyo_rinkai_line",
+      "tokyo_saikyo_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_osakihirokoji",
+    "name": "Osakihirokoji",
+    "station_id": "tokyo_osakihirokoji",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_ikegami_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_oshiage",
+    "name": "Oshiage",
+    "station_id": "tokyo_oshiage",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_hanzomon_line",
+      "tokyo_asakusa_line",
+      "tokyo_oshiage_line",
+      "tokyo_skytree_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_otemachi",
+    "name": "Otemachi",
+    "station_id": "tokyo_otemachi",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_tozai_line",
+      "tokyo_chiyoda_line",
+      "tokyo_hanzomon_line",
+      "tokyo_mita_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_otorii",
+    "name": "Otorii",
+    "station_id": "tokyo_otorii",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_keikyu_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_otsuka-ekimae",
+    "name": "Otsuka-Ekimae",
+    "station_id": "tokyo_otsuka-ekimae",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_arakawa_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_otsuka-teikyo-daigaku",
+    "name": "Otsuka-Teikyo-Daigaku",
+    "station_id": "tokyo_otsuka-teikyo-daigaku",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_tama_monorail"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_oyama",
+    "name": "Oyama",
+    "station_id": "tokyo_oyama",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_tojo_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_roka-koen",
+    "name": "Roka-Koen",
+    "station_id": "tokyo_roka-koen",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_keio_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_rokucho",
+    "name": "Rokuchō",
+    "station_id": "tokyo_rokucho",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_tsukuba_express"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_roppongi-itchome",
+    "name": "Roppongi-Itchome",
+    "station_id": "tokyo_roppongi-itchome",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_namboku_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_ryogoku",
+    "name": "Ryogoku",
+    "station_id": "tokyo_ryogoku",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_oedo_line",
+      "tokyo_sobu_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_ryutsu-center",
+    "name": "Ryūtsū Center",
+    "station_id": "tokyo_ryutsu-center",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_monorail_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_sagami-ono",
+    "name": "Sagami-Ono",
+    "station_id": "tokyo_sagami-ono",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_odakyu_odawara_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_sagamiko",
+    "name": "Sagamiko",
+    "station_id": "tokyo_sagamiko",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_hachiko_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_saginomiya",
+    "name": "Saginomiya",
+    "station_id": "tokyo_saginomiya",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_shinjuku_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_saginuma",
+    "name": "Saginuma",
+    "station_id": "tokyo_saginuma",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_denen_toshi_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_sakaecho",
+    "name": "Sakaecho",
+    "station_id": "tokyo_sakaecho",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_arakawa_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_sakura-shinmachi",
+    "name": "Sakura-shinmachi",
+    "station_id": "tokyo_sakura-shinmachi",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_denen_toshi_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_sakuradamon",
+    "name": "Sakuradamon",
+    "station_id": "tokyo_sakuradamon",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_yurakucho_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_sakuragaoka",
+    "name": "Sakuragaoka",
+    "station_id": "tokyo_sakuragaoka",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_tama_monorail"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_sakurajosui",
+    "name": "Sakurajosui",
+    "station_id": "tokyo_sakurajosui",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_keio_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_samezu",
+    "name": "Samezu",
+    "station_id": "tokyo_samezu",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_keikyu_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_sangen-jaya",
+    "name": "Sangen-Jaya",
+    "station_id": "tokyo_sangen-jaya",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_denen_toshi_line",
+      "tokyo_setagaya_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_sangubashi",
+    "name": "Sangubashi",
+    "station_id": "tokyo_sangubashi",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_odakyu_odawara_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_sasazuka",
+    "name": "Sasazuka",
+    "station_id": "tokyo_sasazuka",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_keio_line",
+      "tokyo_keio_new_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_sawai",
+    "name": "Sawai",
+    "station_id": "tokyo_sawai",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_ome_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_seibijo",
+    "name": "Seibijō",
+    "station_id": "tokyo_seibijo",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_monorail_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_seibu-shinjuku",
+    "name": "Seibu-Shinjuku",
+    "station_id": "tokyo_seibu-shinjuku",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_shinjuku_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_seijo-gakuen-mae",
+    "name": "Seijo-Gakuen-mae",
+    "station_id": "tokyo_seijo-gakuen-mae",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_odakyu_odawara_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_seiseki-sakuragaoka",
+    "name": "Seiseki-Sakuragaoka",
+    "station_id": "tokyo_seiseki-sakuragaoka",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_keio_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_sendagi",
+    "name": "Sendagi",
+    "station_id": "tokyo_sendagi",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_chiyoda_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_sengakuji",
+    "name": "Sengakuji",
+    "station_id": "tokyo_sengakuji",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_asakusa_line",
+      "tokyo_keikyu_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_sengawa",
+    "name": "Sengawa",
+    "station_id": "tokyo_sengawa",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_keio_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_sengoku",
+    "name": "Sengoku",
+    "station_id": "tokyo_sengoku",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_mita_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_senju-ohashi",
+    "name": "Senju-Ōhashi",
+    "station_id": "tokyo_senju-ohashi",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_keisei_main_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_senkawa",
+    "name": "Senkawa",
+    "station_id": "tokyo_senkawa",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_yurakucho_line",
+      "tokyo_fukutoshin_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_senzoku",
+    "name": "Senzoku",
+    "station_id": "tokyo_senzoku",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_oimachi_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_senzokuike",
+    "name": "Senzokuike",
+    "station_id": "tokyo_senzokuike",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_ikegami_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_setagaya",
+    "name": "Setagaya",
+    "station_id": "tokyo_setagaya",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_setagaya_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_setagaya-daita",
+    "name": "Setagaya-Daita",
+    "station_id": "tokyo_setagaya-daita",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_odakyu_odawara_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_shibakoen",
+    "name": "Shibakoen",
+    "station_id": "tokyo_shibakoen",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_mita_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_shibasaki-taiikukan",
+    "name": "Shibasaki-Taiikukan",
+    "station_id": "tokyo_shibasaki-taiikukan",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_tama_monorail"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_shibaura-futo",
+    "name": "Shibaura-futo",
+    "station_id": "tokyo_shibaura-futo",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_yurikamome_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_shibusawa",
+    "name": "Shibusawa",
+    "station_id": "tokyo_shibusawa",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_odakyu_odawara_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_shibuya",
+    "name": "Shibuya",
+    "station_id": "tokyo_shibuya",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_ginza_line",
+      "tokyo_hanzomon_line",
+      "tokyo_fukutoshin_line",
+      "tokyo_yamanote_line",
+      "tokyo_inokashira_line",
+      "tokyo_denen_toshi_line",
+      "tokyo_saikyo_line",
+      "tokyo_toyoko_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_shiinamachi",
+    "name": "Shiinamachi",
+    "station_id": "tokyo_shiinamachi",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_ikebukuro_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_shijo-mae",
+    "name": "Shijo-mae",
+    "station_id": "tokyo_shijo-mae",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_yurikamome_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_shiki",
+    "name": "Shiki",
+    "station_id": "tokyo_shiki",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_tojo_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_shimbashi",
+    "name": "Shimbashi",
+    "station_id": "tokyo_shimbashi",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_ginza_line",
+      "tokyo_marunouchi_line",
+      "tokyo_asakusa_line",
+      "tokyo_yamanote_line",
+      "tokyo_keihin‑tohoku_line",
+      "tokyo_yokosuka_line",
+      "tokyo_yurikamome_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_shimo",
+    "name": "Shimo",
+    "station_id": "tokyo_shimo",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_namboku_line",
+      "tokyo_nippori_toneri_liner"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_shimo-igusa",
+    "name": "Shimo-Igusa",
+    "station_id": "tokyo_shimo-igusa",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_shinjuku_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_shimo-itabashi",
+    "name": "Shimo-Itabashi",
+    "station_id": "tokyo_shimo-itabashi",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_tojo_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_shimo-kitazawa",
+    "name": "Shimo-Kitazawa",
+    "station_id": "tokyo_shimo-kitazawa",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_inokashira_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_shimo-maruko",
+    "name": "Shimo-Maruko",
+    "station_id": "tokyo_shimo-maruko",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_tamagawa_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_shimo-ochiai",
+    "name": "Shimo-Ochiai",
+    "station_id": "tokyo_shimo-ochiai",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_shinjuku_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_shimo-takaido",
+    "name": "Shimo-Takaido",
+    "station_id": "tokyo_shimo-takaido",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_keio_line",
+      "tokyo_setagaya_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_shimokitazawa",
+    "name": "Shimokitazawa",
+    "station_id": "tokyo_shimokitazawa",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_inokashira_line",
+      "tokyo_odakyu_odawara_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_shimura-sakaue",
+    "name": "Shimura-sakaue",
+    "station_id": "tokyo_shimura-sakaue",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_mita_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_shimura-sanchome",
+    "name": "Shimura-sanchome",
+    "station_id": "tokyo_shimura-sanchome",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_mita_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_shin-egota",
+    "name": "Shin-egota",
+    "station_id": "tokyo_shin-egota",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_oedo_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_shin-itabashi",
+    "name": "Shin-itabashi",
+    "station_id": "tokyo_shin-itabashi",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_mita_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_shin-kawasaki",
+    "name": "Shin-Kawasaki",
+    "station_id": "tokyo_shin-kawasaki",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_yokosuka_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_shin-kiba",
+    "name": "Shin-Kiba",
+    "station_id": "tokyo_shin-kiba",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_yurakucho_line",
+      "tokyo_rinkai_line",
+      "tokyo_keiyu_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_shin-koenji",
+    "name": "Shin-Koenji",
+    "station_id": "tokyo_shin-koenji",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_marunouchi_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_shin-matsuda",
+    "name": "Shin-Matsuda",
+    "station_id": "tokyo_shin-matsuda",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_tokaido_line",
+      "tokyo_odakyu_odawara_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_shin-okachimachi",
+    "name": "Shin-okachimachi",
+    "station_id": "tokyo_shin-okachimachi",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_oedo_line",
+      "tokyo_tsukuba_express"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_shin-seibijo",
+    "name": "Shin Seibijō",
+    "station_id": "tokyo_shin-seibijo",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_monorail_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_shin-takashimadaira",
+    "name": "Shin-takashimadaira",
+    "station_id": "tokyo_shin-takashimadaira",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_mita_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_shin-toyosu",
+    "name": "Shin-toyosu",
+    "station_id": "tokyo_shin-toyosu",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_yurikamome_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_shin-urayasu",
+    "name": "Shin-Urayasu",
+    "station_id": "tokyo_shin-urayasu",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_keiyu_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_shin-yurigaoka",
+    "name": "Shin-Yurigaoka",
+    "station_id": "tokyo_shin-yurigaoka",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_odakyu_odawara_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_shinagawa",
+    "name": "Shinagawa",
+    "station_id": "tokyo_shinagawa",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_yamanote_line",
+      "tokyo_keihin‑tohoku_line",
+      "tokyo_yokosuka_line",
+      "tokyo_tokaido_line",
+      "tokyo_keikyu_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_shinagawa-seaside",
+    "name": "Shinagawa Seaside",
+    "station_id": "tokyo_shinagawa-seaside",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_rinkai_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_shinjuku",
+    "name": "Shinjuku",
+    "station_id": "tokyo_shinjuku",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_marunouchi_line",
+      "tokyo_oedo_line",
+      "tokyo_yamanote_line",
+      "tokyo_chuo_line",
+      "tokyo_sobu_line",
+      "tokyo_keio_new_line",
+      "tokyo_odakyu_odawara_line",
+      "tokyo_saikyo_line",
+      "tokyo_keio_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_shinjuku-nishiguchi",
+    "name": "Shinjuku-nishiguchi",
+    "station_id": "tokyo_shinjuku-nishiguchi",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_oedo_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_shinjuku-sanchome",
+    "name": "Shinjuku-Sanchome",
+    "station_id": "tokyo_shinjuku-sanchome",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_marunouchi_line",
+      "tokyo_fukutoshin_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_shinonome",
+    "name": "Shinonome",
+    "station_id": "tokyo_shinonome",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_yurakucho_line",
+      "tokyo_rinkai_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_shinozaki",
+    "name": "Shinozaki",
+    "station_id": "tokyo_shinozaki",
+    "city_id": "tokyo",
+    "lat": null,
+    "lng": null,
+    "is_active": true,
+    "line_ids": [
+      "tokyo_shinjuku_line"
+    ]
+  },
+  {
+    "id": "tokyo_shinsen",
+    "name": "Shinsen",
+    "station_id": "tokyo_shinsen",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_inokashira_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_shintomicho",
+    "name": "Shintomicho",
+    "station_id": "tokyo_shintomicho",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_yurakucho_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_shiodome",
+    "name": "Shiodome",
+    "station_id": "tokyo_shiodome",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_oedo_line",
+      "tokyo_yurikamome_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_shiomi",
+    "name": "Shiomi",
+    "station_id": "tokyo_shiomi",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_keiyu_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_shiotsu",
+    "name": "Shiotsu",
+    "station_id": "tokyo_shiotsu",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_hachiko_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_shirokane-takanawa",
+    "name": "Shirokane-Takanawa",
+    "station_id": "tokyo_shirokane-takanawa",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_namboku_line",
+      "tokyo_mita_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_shirokanedai",
+    "name": "Shirokanedai",
+    "station_id": "tokyo_shirokanedai",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_namboku_line",
+      "tokyo_mita_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_shiromaru",
+    "name": "Shiromaru",
+    "station_id": "tokyo_shiromaru",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_ome_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_shoin-jinja-mae",
+    "name": "Shoin-Jinja-mae",
+    "station_id": "tokyo_shoin-jinja-mae",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_setagaya_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_showajima",
+    "name": "Shōwajima",
+    "station_id": "tokyo_showajima",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_monorail_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_shukugawara",
+    "name": "Shukugawara",
+    "station_id": "tokyo_shukugawara",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_nambu_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_sobudaimae",
+    "name": "Sobudaimae",
+    "station_id": "tokyo_sobudaimae",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_odakyu_odawara_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_soga",
+    "name": "Soga",
+    "station_id": "tokyo_soga",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_keiyu_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_soshigaya-okura",
+    "name": "Soshigaya-Okura",
+    "station_id": "tokyo_soshigaya-okura",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_odakyu_odawara_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_suehirocho",
+    "name": "Suehirocho",
+    "station_id": "tokyo_suehirocho",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_ginza_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_sugamo",
+    "name": "Sugamo",
+    "station_id": "tokyo_sugamo",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_mita_line",
+      "tokyo_yamanote_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_sugamo-shinden",
+    "name": "Sugamo-Shinden",
+    "station_id": "tokyo_sugamo-shinden",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_arakawa_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_suidobashi",
+    "name": "Suidobashi",
+    "station_id": "tokyo_suidobashi",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_chiyoda_line",
+      "tokyo_mita_line",
+      "tokyo_sobu_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_suitengumae",
+    "name": "Suitengumae",
+    "station_id": "tokyo_suitengumae",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_hanzomon_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_sumiyoshi",
+    "name": "Sumiyoshi",
+    "station_id": "tokyo_sumiyoshi",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_hanzomon_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_sunagawa-nanaban",
+    "name": "Sunagawa-Nanaban",
+    "station_id": "tokyo_sunagawa-nanaban",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_tama_monorail"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_suzukakedai",
+    "name": "Suzukakedai",
+    "station_id": "tokyo_suzukakedai",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_denen_toshi_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_tabata",
+    "name": "Tabata",
+    "station_id": "tokyo_tabata",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_yamanote_line",
+      "tokyo_keihin‑tohoku_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_tachiaigawa",
+    "name": "Tachiaigawa",
+    "station_id": "tokyo_tachiaigawa",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_keikyu_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_tachihi",
+    "name": "Tachihi",
+    "station_id": "tokyo_tachihi",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_tama_monorail"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_tachikawa",
+    "name": "Tachikawa",
+    "station_id": "tokyo_tachikawa",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_chuo_line",
+      "tokyo_musashino_line",
+      "tokyo_nambu_line",
+      "tokyo_musashino_line",
+      "tokyo_itsukaichi_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_tachikawa-kita",
+    "name": "Tachikawa-Kita",
+    "station_id": "tokyo_tachikawa-kita",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_tama_monorail"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_tachikawa-minami",
+    "name": "Tachikawa-Minami",
+    "station_id": "tokyo_tachikawa-minami",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_tama_monorail"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_takahatafudo",
+    "name": "Takahatafudo",
+    "station_id": "tokyo_takahatafudo",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_keio_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_takaido",
+    "name": "Takaido",
+    "station_id": "tokyo_takaido",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_inokashira_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_takamatsu",
+    "name": "Takamatsu",
+    "station_id": "tokyo_takamatsu",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_tama_monorail"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_takanawa-gateway",
+    "name": "Takanawa Gateway",
+    "station_id": "tokyo_takanawa-gateway",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_yamanote_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_takanawadai",
+    "name": "Takanawadai",
+    "station_id": "tokyo_takanawadai",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_namboku_line",
+      "tokyo_asakusa_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_takanodai",
+    "name": "Takanodai",
+    "station_id": "tokyo_takanodai",
+    "city_id": "tokyo",
+    "lat": null,
+    "lng": null,
+    "is_active": true,
+    "line_ids": [
+      "tokyo_kokubunji_line"
+    ]
+  },
+  {
+    "id": "tokyo_takao",
+    "name": "Takao",
+    "station_id": "tokyo_takao",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_keio_line",
+      "tokyo_hachiko_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_takaosanguchi",
+    "name": "Takaosanguchi",
+    "station_id": "tokyo_takaosanguchi",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_hachiko_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_takaracho",
+    "name": "Takaracho",
+    "station_id": "tokyo_takaracho",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_asakusa_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_takasaki",
+    "name": "Takasaki",
+    "station_id": "tokyo_takasaki",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_hachiko_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_takashimadaira",
+    "name": "Takashimadaira",
+    "station_id": "tokyo_takashimadaira",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_mita_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_takatsu",
+    "name": "Takatsu",
+    "station_id": "tokyo_takatsu",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_denen_toshi_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_takebashi",
+    "name": "Takebashi",
+    "station_id": "tokyo_takebashi",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_tozai_line",
+      "tokyo_chiyoda_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_takenotsuka",
+    "name": "Takenotsuka",
+    "station_id": "tokyo_takenotsuka",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_skytree_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_takeshiba",
+    "name": "Takeshiba",
+    "station_id": "tokyo_takeshiba",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_yurikamome_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_tama",
+    "name": "Tama",
+    "station_id": "tokyo_tama",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_tamako_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_tama-center",
+    "name": "Tama-Center",
+    "station_id": "tokyo_tama-center",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_keio_line",
+      "tokyo_odakyu_odawara_line",
+      "tokyo_tama_monorail",
+      "tokyo_tama_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_tama-dobutsukoen",
+    "name": "Tama-Dobutsukoen",
+    "station_id": "tokyo_tama-dobutsukoen",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_tama_monorail"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_tama-plaza",
+    "name": "Tama-Plaza",
+    "station_id": "tokyo_tama-plaza",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_odakyu_odawara_line",
+      "tokyo_denen_toshi_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_tamachi",
+    "name": "Tamachi",
+    "station_id": "tokyo_tamachi",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_yamanote_line",
+      "tokyo_keihin‑tohoku_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_tamagawa",
+    "name": "Tamagawa",
+    "station_id": "tokyo_tamagawa",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_tamagawa_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_tamagawa-josui",
+    "name": "Tamagawa-Josui",
+    "station_id": "tokyo_tamagawa-josui",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_tama_monorail"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_tameike-sanno",
+    "name": "Tameike-Sanno",
+    "station_id": "tokyo_tameike-sanno",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_namboku_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_tana",
+    "name": "Tana",
+    "station_id": "tokyo_tana",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_denen_toshi_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_tatsumi",
+    "name": "Tatsumi",
+    "station_id": "tokyo_tatsumi",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_yurakucho_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_tawaramachi",
+    "name": "Tawaramachi",
+    "station_id": "tokyo_tawaramachi",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_ginza_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_telecom-center",
+    "name": "Telecom Center",
+    "station_id": "tokyo_telecom-center",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_yurikamome_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_tenkubashi",
+    "name": "Tenkubashi",
+    "station_id": "tokyo_tenkubashi",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_keikyu_airport_line",
+      "tokyo_monorail_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_tennozu-isle",
+    "name": "Tennōzu Isle",
+    "station_id": "tokyo_tennozu-isle",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_rinkai_line",
+      "tokyo_monorail_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_todaimae",
+    "name": "Todaimae",
+    "station_id": "tokyo_todaimae",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_namboku_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_toden-zoshigaya",
+    "name": "Toden-Zoshigaya",
+    "station_id": "tokyo_toden-zoshigaya",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_arakawa_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_togoshi",
+    "name": "Togoshi",
+    "station_id": "tokyo_togoshi",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_asakusa_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_togoshi-ginza",
+    "name": "Togoshi-Ginza",
+    "station_id": "tokyo_togoshi-ginza",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_ikegami_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_tokyo",
+    "name": "Tokyo",
+    "station_id": "tokyo_tokyo",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_yamanote_line",
+      "tokyo_keihin‑tohoku_line",
+      "tokyo_chuo_line",
+      "tokyo_yokosuka_line",
+      "tokyo_tokaido_line",
+      "tokyo_keiyu_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_tokyo-big-sight",
+    "name": "Tokyo Big Sight",
+    "station_id": "tokyo_tokyo-big-sight",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_yurikamome_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_tokyo-international-cruise-terminal",
+    "name": "Tokyo International Cruise Terminal",
+    "station_id": "tokyo_tokyo-international-cruise-terminal",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_yurikamome_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_tokyo-skytree",
+    "name": "Tokyo Skytree",
+    "station_id": "tokyo_tokyo-skytree",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_skytree_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_tokyo-teleport",
+    "name": "Tokyo Teleport",
+    "station_id": "tokyo_tokyo-teleport",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_rinkai_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_tomizu",
+    "name": "Tomizu",
+    "station_id": "tokyo_tomizu",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_odakyu_odawara_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_toneri",
+    "name": "Toneri",
+    "station_id": "tokyo_toneri",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_nippori_toneri_liner"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_toneri-koen",
+    "name": "Toneri-Koen",
+    "station_id": "tokyo_toneri-koen",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_nippori_toneri_liner"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_toranomon",
+    "name": "Toranomon",
+    "station_id": "tokyo_toranomon",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_ginza_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_toride",
+    "name": "Toride",
+    "station_id": "tokyo_toride",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_hachiko_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_toritsu-kasei",
+    "name": "Toritsu-Kasei",
+    "station_id": "tokyo_toritsu-kasei",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_shinjuku_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_toritsudaigaku",
+    "name": "Toritsudaigaku",
+    "station_id": "tokyo_toritsudaigaku",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_toyoko_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_toshimaen",
+    "name": "Toshimaen",
+    "station_id": "tokyo_toshimaen",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_oedo_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_totsuka",
+    "name": "Totsuka",
+    "station_id": "tokyo_totsuka",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_yokosuka_line",
+      "tokyo_tokaido_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_toyocho",
+    "name": "Toyocho",
+    "station_id": "tokyo_toyocho",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_tozai_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_toyosu",
+    "name": "Toyosu",
+    "station_id": "tokyo_toyosu",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_yurakucho_line",
+      "tokyo_yurikamome_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_tsudayama",
+    "name": "Tsudayama",
+    "station_id": "tokyo_tsudayama",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_nambu_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_tsukimino",
+    "name": "Tsukimino",
+    "station_id": "tokyo_tsukimino",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_denen_toshi_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_tsukishima",
+    "name": "Tsukishima",
+    "station_id": "tokyo_tsukishima",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_yurakucho_line",
+      "tokyo_oedo_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_tsukuba",
+    "name": "Tsukuba",
+    "station_id": "tokyo_tsukuba",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_tsukuba_express"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_tsukushino",
+    "name": "Tsukushino",
+    "station_id": "tokyo_tsukushino",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_denen_toshi_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_tsurumaki-onsen",
+    "name": "Tsurumaki-Onsen",
+    "station_id": "tokyo_tsurumaki-onsen",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_odakyu_odawara_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_tsurumi",
+    "name": "Tsurumi",
+    "station_id": "tokyo_tsurumi",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_keihin‑tohoku_line",
+      "tokyo_yokosuka_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_tsutsujigaoka",
+    "name": "Tsutsujigaoka",
+    "station_id": "tokyo_tsutsujigaoka",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_keio_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_uchisaiwaicho",
+    "name": "Uchisaiwaicho",
+    "station_id": "tokyo_uchisaiwaicho",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_mita_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_ueno",
+    "name": "Ueno",
+    "station_id": "tokyo_ueno",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_ginza_line",
+      "tokyo_hibiya_line",
+      "tokyo_yamanote_line",
+      "tokyo_keihin‑tohoku_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_ueno-hirokoji",
+    "name": "Ueno-hirokoji",
+    "station_id": "tokyo_ueno-hirokoji",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_ginza_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_ueno-okachimachi",
+    "name": "Ueno-okachimachi",
+    "station_id": "tokyo_ueno-okachimachi",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_oedo_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_uenohara",
+    "name": "Uenohara",
+    "station_id": "tokyo_uenohara",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_hachiko_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_uguisudani",
+    "name": "Uguisudani",
+    "station_id": "tokyo_uguisudani",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_yamanote_line",
+      "tokyo_keihin‑tohoku_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_umegaoka",
+    "name": "Umegaoka",
+    "station_id": "tokyo_umegaoka",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_odakyu_odawara_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_umejima",
+    "name": "Umejima",
+    "station_id": "tokyo_umejima",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_skytree_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_urakuracho",
+    "name": "Urakuracho",
+    "station_id": "tokyo_urakuracho",
+    "city_id": "tokyo",
+    "lat": null,
+    "lng": null,
+    "is_active": true,
+    "line_ids": [
+      "tokyo_shinjuku_line"
+    ]
+  },
+  {
+    "id": "tokyo_urawa",
+    "name": "Urawa",
+    "station_id": "tokyo_urawa",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_keihin‑tohoku_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_ushida",
+    "name": "Ushida",
+    "station_id": "tokyo_ushida",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_skytree_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_ushigome-kagurazaka",
+    "name": "Ushigome-kagurazaka",
+    "station_id": "tokyo_ushigome-kagurazaka",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_oedo_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_ushigome-yanagicho",
+    "name": "Ushigome-yanagicho",
+    "station_id": "tokyo_ushigome-yanagicho",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_oedo_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_wakabayashi",
+    "name": "Wakabayashi",
+    "station_id": "tokyo_wakabayashi",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_setagaya_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_wakamatsu-kawada",
+    "name": "Wakamatsu-kawada",
+    "station_id": "tokyo_wakamatsu-kawada",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_oedo_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_wakoshi",
+    "name": "Wakoshi",
+    "station_id": "tokyo_wakoshi",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_yurakucho_line",
+      "tokyo_fukutoshin_line",
+      "tokyo_tojo_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_warabi",
+    "name": "Warabi",
+    "station_id": "tokyo_warabi",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_keihin‑tohoku_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_waseda",
+    "name": "Waseda",
+    "station_id": "tokyo_waseda",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_tozai_line",
+      "tokyo_arakawa_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_yagawa",
+    "name": "Yagawa",
+    "station_id": "tokyo_yagawa",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_nambu_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_yaguchi-no-watashi",
+    "name": "Yaguchi-no-Watashi",
+    "station_id": "tokyo_yaguchi-no-watashi",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_tamagawa_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_yaho",
+    "name": "Yaho",
+    "station_id": "tokyo_yaho",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_nambu_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_yamakita",
+    "name": "Yamakita",
+    "station_id": "tokyo_yamakita",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_tokaido_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_yamashita",
+    "name": "Yamashita",
+    "station_id": "tokyo_yamashita",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_setagaya_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_yanagawa",
+    "name": "Yanagawa",
+    "station_id": "tokyo_yanagawa",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_hachiko_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_yanokuchi",
+    "name": "Yanokuchi",
+    "station_id": "tokyo_yanokuchi",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_nambu_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_yashio",
+    "name": "Yashio",
+    "station_id": "tokyo_yashio",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_tsukuba_express"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_yoga",
+    "name": "Yoga",
+    "station_id": "tokyo_yoga",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_denen_toshi_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_yokohama",
+    "name": "Yokohama",
+    "station_id": "tokyo_yokohama",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_keihin‑tohoku_line",
+      "tokyo_tokaido_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_yokosuka",
+    "name": "Yokosuka",
+    "station_id": "tokyo_yokosuka",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_yokosuka_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_yomiuriland-mae",
+    "name": "Yomiuriland-mae",
+    "station_id": "tokyo_yomiuriland-mae",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_odakyu_odawara_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_yotsugi",
+    "name": "Yotsugi",
+    "station_id": "tokyo_yotsugi",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_oshiage_line",
+      "tokyo_keisei_main_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_yotsuya",
+    "name": "Yotsuya",
+    "station_id": "tokyo_yotsuya",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_namboku_line",
+      "tokyo_chuo_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_yoyogi",
+    "name": "Yoyogi",
+    "station_id": "tokyo_yoyogi",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_oedo_line",
+      "tokyo_yamanote_line",
+      "tokyo_sobu_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_yoyogi-hachiman",
+    "name": "Yoyogi-Hachiman",
+    "station_id": "tokyo_yoyogi-hachiman",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_odakyu_odawara_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_yoyogi-uehara",
+    "name": "Yoyogi-Uehara",
+    "station_id": "tokyo_yoyogi-uehara",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_chiyoda_line",
+      "tokyo_odakyu_odawara_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_yukigaya-otsuka",
+    "name": "Yukigaya-Otsuka",
+    "station_id": "tokyo_yukigaya-otsuka",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_ikegami_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_yurakucho",
+    "name": "Yurakucho",
+    "station_id": "tokyo_yurakucho",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_yurakucho_line",
+      "tokyo_yamanote_line",
+      "tokyo_keihin‑tohoku_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_yurigaoka",
+    "name": "Yurigaoka",
+    "station_id": "tokyo_yurigaoka",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_odakyu_odawara_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_yutenji",
+    "name": "Yutenji",
+    "station_id": "tokyo_yutenji",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_toyoko_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_zama",
+    "name": "Zama",
+    "station_id": "tokyo_zama",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_odakyu_odawara_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_zoshigaya",
+    "name": "Zoshigaya",
+    "station_id": "tokyo_zoshigaya",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_fukutoshin_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  },
+  {
+    "id": "tokyo_zushi",
+    "name": "Zushi",
+    "station_id": "tokyo_zushi",
+    "city_id": "tokyo",
+    "line_ids": [
+      "tokyo_yokosuka_line"
+    ],
+    "lat": null,
+    "lng": null,
+    "is_active": true
+  }
+]

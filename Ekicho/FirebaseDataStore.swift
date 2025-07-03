@@ -7,7 +7,7 @@ class FirebaseDataStore: ObservableObject {
     @Published var error: String?
     @Published var visitedStationIDs: Set<String> = []
     
-    private let firebaseService: FirebaseService
+    let firebaseService: FirebaseService
     private let selectedCompaniesKey = "selectedCompanies"
     private var cancellables = Set<AnyCancellable>()
     
@@ -69,28 +69,20 @@ class FirebaseDataStore: ObservableObject {
     
     // MARK: - Persistence
     func loadSelectedCompanies() {
-        print("🔍 loadSelectedCompanies() called")
         // Don't load if allCompanies is still empty (data not loaded yet)
         guard !allCompanies.isEmpty else { 
-            print("❌ allCompanies is empty, skipping")
             return 
         }
         
-        print("🔄 Loading companies: \(allCompanies)")
-        
         if let savedCompanies = UserDefaults.standard.array(forKey: selectedCompaniesKey) as? [String] {
-            print("📦 Found saved companies: \(savedCompanies)")
             // Ensure saved companies are still valid
             let validCompanies = Set(savedCompanies).intersection(allCompanies)
             // If no valid companies found, default to all companies (not empty)
             self.selectedCompanies = validCompanies.isEmpty ? Set(allCompanies) : validCompanies
         } else {
-            print("🆕 No saved preferences - defaulting to all companies")
             // No saved preferences - default to all companies selected
             self.selectedCompanies = Set(allCompanies)
         }
-        
-        print("✅ Selected companies: \(selectedCompanies)")
         
         // Save the current selection to ensure consistency
         saveSelectedCompanies()
@@ -103,7 +95,6 @@ class FirebaseDataStore: ObservableObject {
     // MARK: - Debug/Testing
     func clearSavedPreferences() {
         UserDefaults.standard.removeObject(forKey: selectedCompaniesKey)
-        print("🧹 Cleared saved company preferences")
     }
     
     // MARK: - User Actions

@@ -23,30 +23,41 @@ class AppDelegate: NSObject, UIApplicationDelegate {
 @main
 struct EkichoApp: App {
   @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
-  
+  @State private var isFirebaseReady = false
+
   var body: some Scene {
     WindowGroup {
-      ContentView()
+      if isFirebaseReady {
+        EkichoRootView()
+      } else {
+        ProgressView("Loading...")
+          .onAppear {
+            DispatchQueue.main.async {
+              self.isFirebaseReady = true
+            }
+          }
+      }
     }
   }
 }
 
-struct ContentView: View {
+struct EkichoRootView: View {
   @StateObject private var firebaseService = FirebaseService()
   @StateObject private var authViewModel: AuthViewModel
   @StateObject private var dataStore: FirebaseDataStore
-  
+
   init() {
     let firebaseService = FirebaseService()
-    self._firebaseService = StateObject(wrappedValue: firebaseService)
-    self._authViewModel = StateObject(wrappedValue: AuthViewModel(firebaseService: firebaseService))
-    self._dataStore = StateObject(wrappedValue: FirebaseDataStore(firebaseService: firebaseService))
+    _firebaseService = StateObject(wrappedValue: firebaseService)
+    _authViewModel = StateObject(wrappedValue: AuthViewModel(firebaseService: firebaseService))
+    _dataStore = StateObject(wrappedValue: FirebaseDataStore(firebaseService: firebaseService))
   }
-  
+
   var body: some View {
     if authViewModel.isSignedIn {
-      LineListView()
+      MainTabView()
         .environmentObject(dataStore)
+        .environmentObject(authViewModel)
     } else {
       SignInView(authViewModel: authViewModel)
     }
