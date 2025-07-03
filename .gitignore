@@ -62,3 +62,4 @@ fastlane/screenshots/**/*.png
 fastlane/test_output
 Ekicho/GoogleService-Info.plist
 Scripts/FireStoreImporter/serviceAccountKey.json
+Scripts/FireStoreImporter/serviceAccountKey.json
